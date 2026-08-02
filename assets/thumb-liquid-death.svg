@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Liquid Death campaign thumbnail">
+  <rect width="900" height="600" fill="#713300"/>
+  <rect x="300" width="300" height="600" fill="#351408"/>
+  <rect x="352" y="68" width="196" height="464" rx="26" fill="#4b1c0b" stroke="#fff2b6" stroke-width="8"/>
+  <text x="450" y="142" text-anchor="middle" font-family="Impact, sans-serif" font-size="52" fill="#fff2b6">LIQUID</text>
+  <text x="450" y="198" text-anchor="middle" font-family="Impact, sans-serif" font-size="66" fill="#fff2b6">DEATH</text>
+  <circle cx="450" cy="334" r="96" fill="#fff2b6"/>
+  <circle cx="416" cy="318" r="18" fill="#351408"/>
+  <circle cx="484" cy="318" r="18" fill="#351408"/>
+  <path d="M400 370c34 24 68 24 102 0" fill="none" stroke="#351408" stroke-width="12"/>
+  <text x="450" y="482" text-anchor="middle" font-family="Georgia, serif" font-size="27" fill="#fff2b6">hydrate louder</text>
+</svg>

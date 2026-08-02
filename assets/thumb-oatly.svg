@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Oatly campaign thumbnail">
+  <rect width="900" height="600" fill="#6b3000"/>
+  <rect x="295" width="310" height="600" fill="#2a1007"/>
+  <circle cx="450" cy="300" r="148" fill="#fff2b6"/>
+  <circle cx="450" cy="300" r="96" fill="#2a1007"/>
+  <text x="450" y="110" text-anchor="middle" font-family="Impact, sans-serif" font-size="72" fill="#fff2b6">OATLY</text>
+  <text x="450" y="324" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#fff2b6">imperfect</text>
+  <text x="450" y="365" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#fff2b6">mornings</text>
+  <path d="M272 460c96-46 257-46 356 0" fill="none" stroke="#fff2b6" stroke-width="8"/>
+</svg>

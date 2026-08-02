@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Spotify campaign thumbnail">
+  <rect width="900" height="600" fill="#163619"/>
+  <rect x="300" width="300" height="600" fill="#1a0700"/>
+  <circle cx="450" cy="292" r="166" fill="#fff2b6"/>
+  <circle cx="450" cy="292" r="110" fill="#163619"/>
+  <circle cx="450" cy="292" r="42" fill="#1a0700"/>
+  <path d="M324 226c86-40 173-39 259 3M323 286c93-36 180-34 259 5M342 345c73-22 140-20 204 6" fill="none" stroke="#fff2b6" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="522" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#fff2b6">your taste has a memory</text>
+</svg>

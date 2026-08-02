@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRWD Concepts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="hero" id="home" aria-label="FRWD Concepts portfolio hero">
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#about" data-nav-about>About</a>
+          <a href="#work" data-nav-work>Work</a>
+          <a href="#contact" data-nav-contact>Contact</a>
+        </nav>
+
+        <div class="hero-type" aria-hidden="true">
+          <span>FRWD</span>
+          <span>CONCEPTS</span>
+        </div>
+
+        <img
+          class="hero-cutout"
+          data-hero-image
+          src=""
+          alt=""
+        />
+      </section>
+
+      <section class="work-band" id="work">
+        <div class="section-heading">
+          <h1 data-work-title>The Work</h1>
+          <p data-work-eyebrow>6 concepts · click to explore</p>
+        </div>
+
+        <div class="concept-grid" data-concepts aria-label="Featured concepts"></div>
+      </section>
+
+      <section class="about-contact" id="about">
+        <div>
+          <p class="section-label" data-about-label>About Me</p>
+          <h2 data-about-title>Strategy with taste. Ideas with a spine.</h2>
+        </div>
+        <p data-about-body></p>
+      </section>
+
+      <section class="contact" id="contact">
+        <p data-contact-title>Let's Work Together</p>
+        <a data-contact-email href="mailto:hello@frwdconcepts.com">hello@frwdconcepts.com</a>
+      </section>
+    </main>
+
+    <script src="data/content.js"></script>
+    <script src="scripts/home.js"></script>
+  </body>
+</html>
