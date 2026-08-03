@@ -29,6 +29,12 @@ if (media.type === "embed") {
       <source src="${assetPath(media.src)}" type="${media.mimeType || "video/mp4"}" />
     </video>
   `;
+} else if (media.type === "tiktok") {
+  mediaContainer.innerHTML = media.embed;
+  const script = document.createElement("script");
+  script.src = "https://www.tiktok.com/embed.js";
+  script.async = true;
+  document.body.appendChild(script);
 } else {
   mediaContainer.innerHTML = `
     <img src="${assetPath(media.src)}" alt="${media.alt || `${project.title} concept artwork`}" />

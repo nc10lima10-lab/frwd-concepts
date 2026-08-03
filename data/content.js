@@ -111,12 +111,15 @@ window.FRWD_CONTENT = {
       },
     },
     {
-      slug: "spotify",
-      title: "Spotify",
-      description: "Your taste has a memory.",
-      image: "assets/thumb-spotify.svg",
-      categories: ["Streaming", "Personalization"],
-      tags: ["Memory", "Identity", "Data"],
+      slug: "viral-tiktok",
+      title: "Viral TikTok",
+      description: "Corporate Maxxing as a Trend.",
+      media: {
+        type: "tiktok",
+        embed: '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@nicole1lima/video/7665856393332739342" data-video-id="7665856393332739342" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@nicole1lima" href="https://www.tiktok.com/@nicole1lima?refer=embed">@nicole1lima</a> i’m a corp plant now <a title="corporatelife" target="_blank" href="https://www.tiktok.com/tag/corporatelife?refer=embed">#corporatelife</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="worktok" target="_blank" href="https://www.tiktok.com/tag/worktok?refer=embed">#worktok</a> <a title="officehumor" target="_blank" href="https://www.tiktok.com/tag/officehumor?refer=embed">#officehumor</a> <a title="corporate" target="_blank" href="https://www.tiktok.com/tag/corporate?refer=embed">#corporate</a> <a target="_blank" title="♬ son original - _peachelio" href="https://www.tiktok.com/music/son-original-7640599127037938465?refer=embed">♬ son original - _peachelio</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>'
+      },
+      categories: ["Social Media", "Trend Strategy"],
+      tags: ["TikTok", "Culture", "Brand Marketing"],
       caseStudy: {
         insight:
           "Music is personal because it stores time: the commute, the breakup, the summer, the version of you that found a song first.",
@@ -124,7 +127,7 @@ window.FRWD_CONTENT = {
           "Turn listening history into emotional proof of identity, not just data visualization.",
         hook: "You did not just play it. You lived there.",
         results:
-          "https://www.tiktok.com/@nicole1lima/video/7665856393332739342?_r=1&_t=ZT-98YqnjcWA7p \n dog",
+          "Higher template adoption, stronger creator affinity, and clearer sto",
       },
     },
   ],
