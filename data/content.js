@@ -20,7 +20,7 @@ window.FRWD_CONTENT = {
     },
     contact: {
       title: "Let's Work Together",
-      email: "hello@frwdconcepts.com",
+      email: "nc10lima10@gmail.com",
     },
   },
   projects: [
