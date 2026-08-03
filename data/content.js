@@ -124,7 +124,7 @@ window.FRWD_CONTENT = {
           "Turn listening history into emotional proof of identity, not just data visualization.",
         hook: "You did not just play it. You lived there.",
         results:
-          "More sharing of personalized moments, deeper loyalty around discovery, and an ownable emotional territory for data-led creative.",
+          "https://www.tiktok.com/@nicole1lima/video/7665856393332739342?_r=1&_t=ZT-98YqnjcWA7p \n dog",
       },
     },
   ],
