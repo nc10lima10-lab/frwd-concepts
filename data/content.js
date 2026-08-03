@@ -114,6 +114,7 @@ window.FRWD_CONTENT = {
       slug: "viral-tiktok",
       title: "Viral TikTok",
       description: "Corporate Maxxing as a Trend.",
+      image: "assets/corporate-maxxing-cover.jpg",
       media: {
         type: "tiktok",
         embed: '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@nicole1lima/video/7665856393332739342" data-video-id="7665856393332739342" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@nicole1lima" href="https://www.tiktok.com/@nicole1lima?refer=embed">@nicole1lima</a> i’m a corp plant now <a title="corporatelife" target="_blank" href="https://www.tiktok.com/tag/corporatelife?refer=embed">#corporatelife</a> <a title="nyc" target="_blank" href="https://www.tiktok.com/tag/nyc?refer=embed">#nyc</a> <a title="worktok" target="_blank" href="https://www.tiktok.com/tag/worktok?refer=embed">#worktok</a> <a title="officehumor" target="_blank" href="https://www.tiktok.com/tag/officehumor?refer=embed">#officehumor</a> <a title="corporate" target="_blank" href="https://www.tiktok.com/tag/corporate?refer=embed">#corporate</a> <a target="_blank" title="♬ son original - _peachelio" href="https://www.tiktok.com/music/son-original-7640599127037938465?refer=embed">♬ son original - _peachelio</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>'
