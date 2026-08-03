@@ -128,7 +128,7 @@ window.FRWD_CONTENT = {
           "Transform a cultural observation into a TikTok-first concept using humor, text-led storytelling, and recognizable moments from modern work culture.",
         hook: "i'm a corporate plant now",
         results:
-          "Built around viral content principles: immediate context, strong text overlays, relatable commentary, and timely cultural references designed to encourage shares and conversation. \n 20K+ views and nearing 50 reposts",
+          "20K+ views and nearing 50 reposts. Built around viral content principles: immediate context, strong text overlays, relatable commentary, and timely cultural references designed to encourage shares and conversation.",
       },
     },
   ],
