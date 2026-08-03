@@ -123,12 +123,12 @@ window.FRWD_CONTENT = {
       tags: ["TikTok", "Culture", "Brand Marketing"],
       caseStudy: {
         insight:
-          "Music is personal because it stores time: the commute, the breakup, the summer, the version of you that found a song first.",
+          "The internet rewards content that makes everyday experiences feel culturally relevant. As 'maxxing' trends turn ordinary behaviors into identities, corporate life became a relatable space for humor, aspiration, and self-expression.",
         opportunity:
-          "Turn listening history into emotional proof of identity, not just data visualization.",
-        hook: "You did not just play it. You lived there.",
+          "Transform a cultural observation into a TikTok-first concept using humor, text-led storytelling, and recognizable moments from modern work culture.",
+        hook: "i'm a corporate plant now",
         results:
-          "Higher template adoption, stronger creator affinity, and clearer sto",
+          "Built around viral content principles: immediate context, strong text overlays, relatable commentary, and timely cultural references designed to encourage shares and conversation. \n 20K+ views and nearing 50 reposts",
       },
     },
   ],
