@@ -8,5 +8,7 @@
     "check": "node --check data/content.js && node --check scripts/home.js && node --check scripts/project.js",
     "build": "npm run check"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }
