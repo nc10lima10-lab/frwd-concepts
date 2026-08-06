@@ -93,23 +93,7 @@ window.FRWD_CONTENT = {
           "Clearer shelf differentiation, more lifestyle-led UGC, and a campaign that bridges wellness and indulgence.",
       },
     },
-    {
-      slug: "notion",
-      title: "Notion",
-      description: "The calm after the brainstorm.",
-      image: "assets/thumb-notion.svg",
-      categories: ["SaaS", "Creator Tools"],
-      tags: ["Productivity", "Creativity", "Systems"],
-      caseStudy: {
-        insight:
-          "The problem is not having ideas. It is catching them before they become twelve tabs and a headache.",
-        opportunity:
-          "Make Notion feel like the place where creative chaos becomes something you can actually use.",
-        hook: "Put the thought somewhere it can grow.",
-        results:
-          "Higher template adoption, stronger creator affinity, and clearer storytelling around Notion as a creative operating system.",
-      },
-    },
+    
     {
       slug: "viral-tiktok",
       title: "Viral TikTok",
