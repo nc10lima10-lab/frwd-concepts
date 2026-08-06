@@ -25,23 +25,6 @@ window.FRWD_CONTENT = {
   },
   projects: [
     {
-      slug: "liquid-death",
-      title: "Liquid Death",
-      description: "Hydration with a punchline.",
-      image: "assets/thumb-liquid-death.svg",
-      categories: ["Beverage", "Brand Voice"],
-      tags: ["Comedy", "Shareability", "Retail"],
-      caseStudy: {
-        insight:
-          "Most people know they should drink more water, but reminders feel preachy and forgettable.",
-        opportunity:
-          "Turn hydration into a social object: absurd enough to share, simple enough to remember.",
-        hook: "Hydrate like your group chat depends on it.",
-        results:
-          "More earned reposts, sharper retail memorability, and a campaign tone that can stretch from TikTok to convenience-store signage.",
-      },
-    },
-    {
       slug: "product-design-app",
       title: "Product Design App",
       description: "Journaling app designed with Figma",
