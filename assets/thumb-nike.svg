@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Nike campaign thumbnail">
-  <rect width="900" height="600" fill="#5d2208"/>
-  <rect x="0" y="396" width="900" height="204" fill="#160500"/>
-  <path d="M167 357c137 41 344 36 571-34-164 87-345 143-520 139-76-2-102-44-51-105z" fill="#fff2b6"/>
-  <text x="72" y="108" font-family="Impact, sans-serif" font-size="78" fill="#fff2b6">FIRST REP</text>
-  <text x="73" y="160" font-family="Georgia, serif" font-size="33" fill="#fff2b6">still counts</text>
-  <path d="M92 302h136m422 0h158" stroke="#fff2b6" stroke-width="6"/>
-</svg>
