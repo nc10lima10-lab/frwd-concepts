@@ -45,7 +45,7 @@ window.FRWD_CONTENT = {
       slug: "product-design-app",
       title: "Product Design App",
       description: "Journaling app designed with Figma",
-      image: "assets/figma-cover.jpg",
+      image: "assets/figma-landing.jpg",
       media: {
         type: "embed",
         src: "https://embed.figma.com/design/l5AReVkqG8Y0Jlj2m0qepE/Log--Product-Design-Sample?node-id=0-1&embed-host=share",
