@@ -45,7 +45,7 @@ window.FRWD_CONTENT = {
       slug: "product-design-app",
       title: "Product Design App",
       description: "Journaling app designed with Figma",
-      image: "assets/thumb-reflect.jpg",
+      image: "assets/figma-cover.jpg",
       media: {
         type: "embed",
         src: "https://embed.figma.com/design/l5AReVkqG8Y0Jlj2m0qepE/Log--Product-Design-Sample?node-id=0-1&embed-host=share",
@@ -63,9 +63,6 @@ window.FRWD_CONTENT = {
         results:
           "An interactive Figma prototype exploring multiple journaling formats, thoughtful UX flows, and habit-building interactions designed to reduce friction."
       },
-      image: "assets/figma-cover.jpg",
-      image: "assets/figma-overall.jpg",
-      image: "assets/figma-landing.jpg",
     },
     {
       slug: "viral-tiktok",
