@@ -59,7 +59,7 @@ window.FRWD_CONTENT = {
         opportunity:
           "Design a flexible journaling experience that supports different reflection styles, making the habit feel less like a task and more like a conversation.",
         hook:
-          "Reflection should adapt to the user—not the other way around.",
+          "Reflection should adapt to the user, and not the other way around.",
         results:
           "An interactive Figma prototype exploring multiple journaling formats, thoughtful UX flows, and habit-building interactions designed to reduce friction."
       },
