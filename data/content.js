@@ -25,24 +25,6 @@ window.FRWD_CONTENT = {
   },
   projects: [
     {
-      slug: "oatly",
-      title: "Oatly",
-      description: "The anti-perfect breakfast ritual.",
-      image: "assets/thumb-oatly.svg",
-      categories: ["CPG", "Social Campaign"],
-      tags: ["Consumer Psychology", "Humor", "Ritual"],
-      caseStudy: {
-        insight:
-          "People are tired of wellness content that makes everyday choices feel like a performance review.",
-        opportunity:
-          "Make the brand feel like the forgiving part of the morning: useful, dry, and slightly amused by perfection culture.",
-        hook:
-          "You do not need a perfect morning. You need coffee that did not give up on you.",
-        results:
-          "Higher social saves, stronger relatability in comments, and a brand moment that can flex across Reels, OOH, and retail display.",
-      },
-    },
-    {
       slug: "liquid-death",
       title: "Liquid Death",
       description: "Hydration with a punchline.",
@@ -60,40 +42,28 @@ window.FRWD_CONTENT = {
       },
     },
     {
-      slug: "nike",
-      title: "Nike",
-      description: "Progress that feels personal.",
-      image: "assets/thumb-nike.svg",
-      categories: ["Sportswear", "Brand Campaign"],
-      tags: ["Motivation", "Beginners", "Behavior"],
+      slug: "product-design-app",
+      title: "Product Design App",
+      description: "A journaling app designed to make reflection feel more approachable through multiple writing formats.",
+      image: "assets/thumb-reflect.jpg",
+      media: {
+        type: "embed",
+        src: "https://www.figma.com/design/l5AReVkqG8Y0Jlj2m0qepE/Log--Product-Design-Sample?node-id=0-1&t=y1kUkLrY0d3eSv51-1",
+        title: "Reflect Figma Prototype"
+      },
+      categories: ["UX Design", "Product Design"],
+      tags: ["Figma", "Behavior Design", "Wellness"],
       caseStudy: {
         insight:
-          "People do not always need motivation. Sometimes they need proof that tiny effort still counts.",
+          "People know journaling is valuable, but many avoid it because a blank page feels intimidating or they don't know where to start.",
         opportunity:
-          "Make the win feel smaller, more honest, and easier to start today.",
-        hook: "The first rep is still a rep.",
+          "Design a flexible journaling experience that supports different reflection styles, making the habit feel less like a task and more like a conversation.",
+        hook:
+          "Reflection should adapt to the user—not the other way around.",
         results:
-          "Broader emotional access, stronger beginner resonance, and repeatable short-form stories built around small wins.",
+          "An interactive Figma prototype exploring multiple journaling formats, thoughtful UX flows, and habit-building interactions designed to reduce friction."
       },
     },
-    {
-      slug: "poppi",
-      title: "Poppi",
-      description: "A gut-check for soda culture.",
-      image: "assets/thumb-poppi.svg",
-      categories: ["Beverage", "Lifestyle"],
-      tags: ["Wellness", "Indulgence", "Gen Z"],
-      caseStudy: {
-        insight:
-          "Consumers want better-for-you choices without losing the fun, color, and ritual of soda.",
-        opportunity:
-          "Position Poppi as the soda that lets people keep the moment and drop the compromise.",
-        hook: "Your soda era grew up.",
-        results:
-          "Clearer shelf differentiation, more lifestyle-led UGC, and a campaign that bridges wellness and indulgence.",
-      },
-    },
-    
     {
       slug: "viral-tiktok",
       title: "Viral TikTok",
