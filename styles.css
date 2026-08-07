@@ -327,7 +327,7 @@ a {
   display: block;
   object-fit: contain;
   border: 1px solid var(--line);
-  background: var(--ink-deep);
+  background: transparent;
 }
 
 .project-media iframe,
