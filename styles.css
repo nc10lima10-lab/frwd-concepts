@@ -337,7 +337,7 @@ a {
   aspect-ratio: 16 / 7;
   object-fit: cover;
   border: 1px solid var(--line);
-  background: var(--ink-deep);
+  background: transparent;
 }
 
 .project-media iframe {
