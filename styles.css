@@ -321,7 +321,15 @@ a {
   padding: 0 64px 24px;
 }
 
-.project-media img,
+.project-media img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  background: var(--ink-deep);
+}
+
 .project-media iframe,
 .project-media video {
   width: 100%;

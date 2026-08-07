@@ -26,8 +26,8 @@ window.FRWD_CONTENT = {
   projects: [
     {
       slug: "dum-dums-all-eyes-on-blue",
-      title: "Dum Dums: All Eyes on Blue",
-      description: "Brand campaign concept inspired by the Mona Lisa's iconic gaze",
+      title: "Insta Story Campaign",
+      description: "Dum Dums brand concept inspired by Mona Lisa's iconic gaze",
       image: "assets/insta-story-cover.jpg",
       media: {
         type: "image",
