@@ -25,6 +25,29 @@ window.FRWD_CONTENT = {
   },
   projects: [
     {
+      slug: "dum-dums-all-eyes-on-blue",
+      title: "Dum Dums: All Eyes on Blue",
+      description: "Brand campaign concept inspired by the Mona Lisa's iconic gaze",
+      image: "assets/insta-story-cover.jpg",
+      media: {
+        type: "image",
+        src: "assets/dumdums-campaign.jpg",
+        title: "All Eyes on Blue Campaign Concept"
+      },
+      categories: ["Brand Strategy", "Creative Direction"],
+      tags: ["Dum Dums", "Campaign Design", "Consumer Psychology", "Social Media"],
+      caseStudy: {
+        insight:
+          "The Mona Lisa's timeless appeal comes from her mysterious expression and the feeling that her eyes follow every viewer. Dum Dums is a nostalgic candy brand with a recognizable visual identity, but lacked a modern cultural moment.",
+        opportunity:
+          "Use the Mona Lisa's famous gaze as a creative platform, transforming a simple lollipop into the one thing impossible to ignore.",
+        hook:
+          "All eyes on blue.",
+        results:
+          "A social campaign concept that reimagines Dum Dums through an editorial lens, using selective color, cultural references, and visual storytelling to create a memorable brand moment."
+      }
+    },
+    {
       slug: "product-design-app",
       title: "Product Design App",
       description: "Journaling app designed with Figma",
