@@ -25,7 +25,30 @@ window.FRWD_CONTENT = {
   },
   projects: [
     {
-      slug: "dum-dums-all-eyes-on-blue",
+      slug: "instagram-grid",     
+      title: "Instagram Grid",     
+      description: "Product, brand, and Instagram concept for a better-for-you cake pops.",     
+      image: "assets/insta-grid-cover.jpg",    
+      media: {
+        type: "image",
+        src: "assets/batter-insta-grid.jpg",
+        title: "Instagram Grid Concept"
+      },     
+      categories: ["Social Media Strategy", "Brand Direction"],      
+      tags: ["Batter Bites", "Gen Z Marketing", "UGC Strategy", "Protein Trends"],      
+      caseStudy: {   
+        insight:
+          "Gen Z discovers and connects with brands through social media, where a product's identity is shaped as much by its visual language, community, and content style as the product itself. As the protein craze continues, many protein products still lack the aesthetics and relevance needed to stand out in the social landscape.",     
+        opportunity:    
+          "Position Batter Bites as the dessert that bridges indulgence and wellness, creating a social presence that feels native to Gen Z culture through relatable UGC, aesthetic food moments, and craveable storytelling.",     
+        hook:     
+          "Better Bites from Batter Bites",      
+        results:     
+        "A complete product, brand, and social campaign concept that combines product development, creative direction, and content strategy to build a Gen Z-focused identity across Instagram."   
+        }
+      },
+      {
+      slug: "insta-story-campaign",
       title: "Insta Story Campaign",
       description: "Dum Dums brand concept inspired by Mona Lisa's iconic gaze",
       image: "assets/insta-story-cover.jpg",
