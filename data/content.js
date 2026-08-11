@@ -81,7 +81,7 @@ window.FRWD_CONTENT = {
         title: "Reflect Figma Prototype"
       },
       workSampleLink: "https://drive.google.com/file/d/17YYcZrA6y3f5zzoEPLirzKn3kudlikPf/view?usp=sharing",
-      workSampleLabel: "View Full Product Design Process Poster",
+      workSampleLabel: "🔗 View Full Product Design Process Poster",
       categories: ["UX Design", "Product Design"],
       tags: ["Figma", "Behavior Design", "Wellness"],
       caseStudy: {
