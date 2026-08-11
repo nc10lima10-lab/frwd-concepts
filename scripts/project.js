@@ -41,6 +41,13 @@ if (media.type === "embed") {
   `;
 }
 
+const workSampleEl = document.querySelector("[data-work-sample]");
+if (project.workSampleLink) {
+  workSampleEl.innerHTML = `<a href="${project.workSampleLink}" target="_blank" rel="noopener noreferrer">View Work Sample →</a>`;
+} else {
+  workSampleEl.innerHTML = "";
+}
+
 document.querySelector("[data-insight]").textContent = project.caseStudy.insight;
 document.querySelector("[data-opportunity]").textContent = project.caseStudy.opportunity;
 document.querySelector("[data-hook]").textContent = project.caseStudy.hook;

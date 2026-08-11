@@ -372,6 +372,20 @@ a {
   margin-bottom: 72px;
 }
 
+.project-work-sample {
+  display: inline-block;
+  color: var(--cream);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.project-work-sample:hover {
+  text-decoration: underline;
+}
+
 @keyframes settle {
   from {
     opacity: 0;

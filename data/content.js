@@ -80,17 +80,18 @@ window.FRWD_CONTENT = {
         src: "https://embed.figma.com/design/l5AReVkqG8Y0Jlj2m0qepE/Log--Product-Design-Sample?node-id=0-1&embed-host=share",
         title: "Reflect Figma Prototype"
       },
+      workSampleLink: "https://drive.google.com/file/d/17YYcZrA6y3f5zzoEPLirzKn3kudlikPf/view?usp=sharing",
       categories: ["UX Design", "Product Design"],
       tags: ["Figma", "Behavior Design", "Wellness"],
       caseStudy: {
         insight:
-          "People know journaling is valuable, but many avoid it because a blank page feels intimidating or they don't know where to start.",
+          "User interviews showed that while people value journaling, a blank page can feel intimidating. Testing revealed where users experienced friction and what made reflection feel approachable.",
         opportunity:
-          "Design a flexible journaling experience that supports different reflection styles, making the habit feel less like a task and more like a conversation.",
+          "Design a flexible journaling experience informed by user feedback, iterating on formats and flows to make reflection feel more intuitive and conversational.",
         hook:
           "Reflection should adapt to the user, and not the other way around.",
         results:
-          "An interactive Figma prototype exploring multiple journaling formats, thoughtful UX flows, and habit-building interactions designed to reduce friction."
+          "Interactive Figma prototype shaped through user interviews, usability testing, and iterative feedback, exploring multiple journaling formats and habit-building interactions."
       },
     },
     {
