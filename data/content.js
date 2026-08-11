@@ -86,13 +86,13 @@ window.FRWD_CONTENT = {
       tags: ["Figma", "Behavior Design", "Wellness"],
       caseStudy: {
         insight:
-          "User interviews showed that while people value journaling, a blank page can feel intimidating. Testing revealed where users experienced friction and what made reflection feel approachable.",
+          "User interviews showed that people value journaling. But, a blank page creates friction, especially for people who want to reflect but don't know where to begin.",
         opportunity:
-          "Design a flexible journaling experience informed by user feedback, iterating on formats and flows to make reflection feel more intuitive and conversational.",
+          "Create a journaling experience that offers structure without feeling restrictive, giving users multiple ways to reflect based on their needs.",
         hook:
           "Reflection should adapt to the user, and not the other way around.",
         results:
-          "Interactive Figma prototype shaped through user interviews, usability testing, and iterative feedback, exploring multiple journaling formats and habit-building interactions."
+          "Designed an interactive Figma prototype for a more approachable journaling experience. The product evolved through user interviews, think-aloud usability testing, and multiple rounds of iteration. Testing helped refine the navigation, journaling formats, and interaction patterns based on how users naturally approached reflection. The final prototype explores how thoughtful UX and behavior design can make journaling feel easier to start and more sustainable as a habit."
       },
     },
     {
