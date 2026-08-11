@@ -43,7 +43,11 @@ if (media.type === "embed") {
 
 const workSampleEl = document.querySelector("[data-work-sample]");
 if (project.workSampleLink) {
-  workSampleEl.innerHTML = `<a href="${project.workSampleLink}" target="_blank" rel="noopener noreferrer">View Work Sample →</a>`;
+  workSampleEl.innerHTML = `
+    <a href="${project.workSampleLink}" target="_blank" rel="noopener noreferrer">
+      ${project.workSampleLabel || "View Work Sample →"}
+    </a>
+  `;
 } else {
   workSampleEl.innerHTML = "";
 }
