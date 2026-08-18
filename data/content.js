@@ -116,5 +116,28 @@ window.FRWD_CONTENT = {
           "20K+ views and nearing 50 reposts. Built around viral content principles: immediate context, strong text overlays, relatable commentary, and timely cultural references designed to encourage shares and conversation.",
       },
     },
+
+    {
+      slug: "insta-post",
+      title: "Insta Post",
+      description: "High Protein Skincare",
+      image: "assets/4am-insta.png",
+      media: {
+        type: "image",
+        src: "assets/4am-insta.png",
+        title: "4 AM High Protein Skincare Insta Post"
+      },
+      categories: ["Social Media", "Trend Strategy"],
+      tags: ["Instagram", "Beauty", "Culture", "Trend Marketing"],
+      caseStudy: {
+        insight:
+          "Protein has become a cultural obsession, showing up everywhere from snacks and drinks to desserts and everyday routines. The trend has expanded beyond nutrition into a broader lifestyle identity.",
+        opportunity:
+          "Bring the protein craze into skincare by playfully reframing 4AM’s High Protein Serum as the next thing you need to add protein to: your face. A familiar cultural trend creates an unexpected, memorable product connection.",
+        hook: "You’re putting protein in everything. Might as well put it on your face.",
+        results:
+          "Designed as a trend-led Instagram concept that uses a familiar cultural obsession to make a skincare benefit feel unexpected, relevant, and shareable.",
+      },
+    },
   ],
 };
