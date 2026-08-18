@@ -121,7 +121,7 @@ window.FRWD_CONTENT = {
       slug: "insta-post",
       title: "Insta Post",
       description: "High Protein Skincare",
-      image: "assets/serum-insta.png",
+      image: "assets/serum-insta.jpg",
       media: {
         type: "image",
         src: "assets/4am-insta.png",
