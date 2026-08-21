@@ -29,7 +29,10 @@ if (media.type === "embed") {
       <source src="${assetPath(media.src)}" type="${media.mimeType || "video/mp4"}" />
     </video>
   `;
-} else if (media.type === "tiktok") {
+} else if (media.type === "iframe") {
+  mediaContainer.innerHTML = media.embed;
+}
+else if (media.type === "tiktok") {
   mediaContainer.innerHTML = media.embed;
   const script = document.createElement("script");
   script.src = "https://www.tiktok.com/embed.js";
