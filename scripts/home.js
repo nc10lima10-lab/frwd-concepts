@@ -29,7 +29,7 @@ document.querySelector("[data-concepts]").innerHTML = projects
     const link = project.link || `projects/project.html?project=${project.slug}`;
 
     return `
-      <a class="concept-card" href="${link}">
+      <a class="concept-card" href="${link}" style="--image-position: ${project.imagePosition || "center"}">
         <img src="${project.image}" alt="${project.title} concept thumbnail" />
         <span class="concept-overlay">
           <span>${number}</span>

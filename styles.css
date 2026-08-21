@@ -6,7 +6,8 @@
   --cream-muted: #e4d59a;
   --paper: #f5f5f3;
   --line: rgba(255, 242, 182, 0.2);
-  --overlay: rgba(255, 226, 105, 0.72);
+  --overlay: rgba(255, 226, 105, 0.68);
+  --thumb-bg: #2a0d02;
 }
 
 * {
@@ -111,6 +112,11 @@ a {
   padding: 68px 64px;
 }
 
+.work-band {
+  padding-top: 52px;
+  padding-bottom: 86px;
+}
+
 .section-heading {
   display: flex;
   align-items: baseline;
@@ -138,18 +144,19 @@ a {
 .concept-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px 28px;
+  gap: 28px;
   align-items: stretch;
 }
 
 .concept-card {
   position: relative;
   display: block;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: #5b2600;
-  outline: 1px solid rgba(255, 242, 182, 0.08);
-  transition: transform 190ms ease, outline-color 190ms ease;
+  background: var(--thumb-bg);
+  border: 1px solid rgba(255, 242, 182, 0.16);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+  transition: transform 190ms ease, border-color 190ms ease, box-shadow 190ms ease;
 }
 
 .concept-card img {
@@ -157,14 +164,29 @@ a {
   height: 100%;
   display: block;
   object-fit: cover;
-  transform: scale(1.005);
+  object-position: var(--image-position, center);
+  transform: scale(1.01);
+  filter: grayscale(16%) saturate(0.82) contrast(0.96) sepia(8%);
   transition: transform 280ms ease, filter 280ms ease;
+}
+
+.concept-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(26, 7, 0, 0.02), rgba(26, 7, 0, 0.28)),
+    rgba(255, 242, 182, 0.05);
+  mix-blend-mode: multiply;
+  pointer-events: none;
 }
 
 .concept-card::after {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 1;
   background: var(--overlay);
   opacity: 0;
   transition: opacity 220ms ease;
@@ -186,14 +208,15 @@ a {
 
 .concept-card:hover,
 .concept-card:focus-visible {
-  outline-color: rgba(255, 242, 182, 0.72);
+  border-color: rgba(255, 242, 182, 0.72);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.26);
   transform: translateY(-3px);
 }
 
 .concept-card:hover img,
 .concept-card:focus-visible img {
-  filter: saturate(0.78) contrast(0.98);
-  transform: scale(1.035);
+  filter: grayscale(4%) saturate(0.94) contrast(0.98) sepia(4%);
+  transform: scale(1.04);
 }
 
 .concept-card:hover::after,
@@ -212,7 +235,7 @@ a {
 
 .concept-overlay strong {
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  font-size: clamp(1.9rem, 3.2vw, 2.9rem);
   line-height: 0.85;
   text-transform: uppercase;
 }
@@ -220,8 +243,8 @@ a {
 .concept-overlay em {
   max-width: 13rem;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.1rem;
-  line-height: 1.05;
+  font-size: 1rem;
+  line-height: 1.06;
 }
 
 .about-contact {
@@ -454,6 +477,10 @@ a {
     gap: 16px;
   }
 
+  .concept-overlay {
+    padding: 14px;
+  }
+
   .project-deck,
   .project-results {
     margin-left: 26px;
@@ -486,7 +513,8 @@ a {
   }
 
   .concept-grid {
-    gap: 10px;
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .concept-overlay {
