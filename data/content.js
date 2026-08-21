@@ -16,7 +16,7 @@ window.FRWD_CONTENT = {
       label: "About Me",
       title: "Strategy with taste. Ideas with a reason.",
       body:
-        "FRWD Concepts is a concept portfolio started by Nicole Cornehl Lima. Each self-initiated project begins with a strategic hypothesis rooted in consumer behavior, cultural trends, or market performance, then explores how that insight can be translated into a compelling creative.",
+        "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. Every project starts with a strategic hypothesis and turns it into something creative, digital, and tangible. With a Computer Science background, Nicole loves finding the intersection of creativity, culture, technology, and strategy.",
     },
     contact: {
       title: "Let's Work Together",
