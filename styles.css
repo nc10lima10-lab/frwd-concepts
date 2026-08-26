@@ -123,7 +123,7 @@ a {
   text-stroke: 4px var(--cream);
   text-align: center;
   pointer-events: none;
-  animation: led-sign 6.4s ease-in-out infinite;
+  animation: led-sign 10.5s ease-in-out infinite;
   will-change: filter, opacity;
 }
 
