@@ -540,22 +540,15 @@ a {
 .favs-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, .96fr) minmax(0, .78fr);
-  align-items: start;
-  gap: clamp(34px, 7.5vw, 120px);
+  grid-template-rows: auto 12.5rem;
+  align-items: end;
+  column-gap: clamp(34px, 7.5vw, 120px);
+  row-gap: 28px;
   margin-top: 38px;
 }
 
 .favs-card {
-  display: grid;
-  gap: 28px;
-}
-
-.favs-card--two {
-  padding-top: 24px;
-}
-
-.favs-card--three {
-  padding-top: 64px;
+  display: contents;
 }
 
 .favs-image {
@@ -571,14 +564,20 @@ a {
 }
 
 .favs-card--one .favs-image {
+  grid-column: 1;
+  grid-row: 1;
   aspect-ratio: .95 / 1;
 }
 
 .favs-card--two .favs-image {
+  grid-column: 2;
+  grid-row: 1;
   aspect-ratio: .8 / 1;
 }
 
 .favs-card--three .favs-image {
+  grid-column: 3;
+  grid-row: 1;
   aspect-ratio: .695 / 1;
 }
 
@@ -599,6 +598,21 @@ a {
 
 .favs-copy p + p {
   margin-top: 12px;
+}
+
+.favs-card--one .favs-copy {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.favs-card--two .favs-copy {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.favs-card--three .favs-copy {
+  grid-column: 3;
+  grid-row: 2;
 }
 
 .about-photo {
@@ -1030,9 +1044,17 @@ a {
   }
 
   .favs-layout {
-    grid-template-columns: 1fr;
-    gap: 34px;
+    display: block;
     margin-top: 22px;
+  }
+
+  .favs-card {
+    display: grid;
+    gap: 22px;
+  }
+
+  .favs-card + .favs-card {
+    margin-top: 34px;
   }
 
   .favs-copy {
