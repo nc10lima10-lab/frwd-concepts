@@ -14,9 +14,9 @@ window.FRWD_CONTENT = {
     },
     about: {
       label: "About Me",
-      title: "Strategy with taste. Ideas with a reason.",
+      title: "Tech x Culture x Strategy",
       body:
-        "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. With a Computer Science background, Nicole loves finding the intersection of creativity, culture, technology, and strategy.",
+        "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. \n\n I just graduated from the University of Michigan, having studied Computer Science in the College of Engineering (wohoo!). \n\n I'm also a serial explorer. Currently at 48 countries so far! \n\n And lastly, I’m online a lot... I just have such a love for things that feel Gen Z and relevant. ",
     },
     contact: {
       title: "Let's Work Together",
