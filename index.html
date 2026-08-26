@@ -3,85 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="FRWD Concepts — Nicole Cornehl Lima's concept portfolio." />
     <title>FRWD Concepts</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="portfolio">
-      <header class="hero">
+    <main class="site-shell">
+      <section class="hero" id="home" aria-label="FRWD Concepts portfolio hero">
         <nav class="nav" aria-label="Primary navigation">
-          <a href="#about">About</a><a href="#work">Work</a><a href="#contact">Contact</a>
+          <a href="#about" data-nav-about>About</a>
+          <a href="#work" data-nav-work>Work</a>
+          <a href="#contact" data-nav-contact>Contact</a>
         </nav>
-        <div class="hero-outline" aria-hidden="true"><span>FRWD</span><span>CONCEPTS</span></div>
-        <div class="hero-person placeholder" aria-label="Portrait placeholder"><span>Portrait</span></div>
-      </header>
 
-      <section class="about" id="about">
-        <div>
-          <p class="kicker">About Me</p>
-          <h1>Tech x<br />Culture x<br />Strategy</h1>
+        <div class="hero-type" aria-hidden="true">
+          <span>FRWD</span>
+          <span>CONCEPTS</span>
         </div>
-        <p class="serif">FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. I just graduated from the University of Michigan. Wohoooo! My major was Computer Science in the College of Engineering. I’m also a serial explorer. Currently at 48 countries so far! And lastly, I’m online a lot... I just have such a love for things that feel Gen Z and relevant.</p>
-        <div class="about-grid">
-          <div class="placeholder photo-a"><span>Image 01</span></div><div class="placeholder photo-b"><span>Image 02</span></div><div class="placeholder photo-c"><span>Image 03</span></div><div class="placeholder photo-d"><span>Image 04</span></div>
+
+        <img
+          class="hero-cutout"
+          data-hero-image
+          src=""
+          alt=""
+        />
+      </section>
+
+      <section class="about-contact" id="about">
+        <div class="about-intro">
+          <p class="section-label" data-about-label>About Me</p>
+          <h2 data-about-title>Strategy with taste. Ideas with a spine.</h2>
+          <p class="about-body" data-about-body></p>
+        </div>
+        <div class="about-gallery" aria-label="Nicole's life and work">
+          <figure class="about-photo about-photo--portrait">
+            <img src="assets/about-graduation.jpg" alt="Nicole wearing her University of Michigan graduation stole" />
+          </figure>
+          <figure class="about-photo">
+            <img src="assets/about-speaker.jpg" alt="Nicole speaking at a Global Mentorship Program event" />
+          </figure>
+          <figure class="about-photo">
+            <img src="assets/about-camel.jpg" alt="Nicole riding a camel at sunset" />
+          </figure>
+          <figure class="about-photo">
+            <img src="assets/about-friends.jpg" alt="Nicole with friends at a University of Michigan event" />
+          </figure>
         </div>
       </section>
 
-      <section class="work" id="work">
-        <article class="work-piece prototype-piece">
-          <p class="kicker">My Work</p><h2>AI-Assisted Visual Prototyping</h2>
-          <div class="prototype-layout">
-            <div class="project-copy serif"><p>Source a Pinterest image with a girly, ballet-pink mood that felt on-brand for PINK.</p><p>Used AI + Canva to prototype how the mood could translate into branded content, swapping in a product to test how product could live inside that aesthetic.</p></div>
-            <div class="prototype-grid">
-              <div class="placeholder pink-1"><span>Image</span></div><div class="placeholder pink-2"><span>Image</span></div><div class="placeholder pink-3"><span>Image</span></div>
-              <div class="placeholder pink-4"><span>Image</span></div><div class="placeholder pink-5"><span>Image</span></div><div class="placeholder pink-6"><span>Image</span></div>
-            </div>
-          </div>
-          <p class="caption serif">Why this works: Reinforces PINK’s playful, feminine identity while showing product in a lifestyle-driven, trend-relevant context.</p>
-        </article>
+      <section class="work-band" id="work">
+        <div class="section-heading">
+          <h1 data-work-title>The Work</h1>
+          <p data-work-eyebrow></p>
+        </div>
 
-        <article class="work-piece food-piece">
-          <p class="kicker">My Work</p><h2>Food Photography</h2>
-          <div class="food-grid">
-            <div class="placeholder food-1"><span>Image</span></div><div class="placeholder food-2"><span>Image</span></div><div class="placeholder food-3"><span>Image</span></div><button class="video-card" type="button" data-video-upload><span>Put<br />video<br />here</span></button><div class="placeholder food-4"><span>Image</span></div>
-            <div class="placeholder food-5"><span>Image</span></div><button class="video-card" type="button" data-video-upload><span>Put<br />video<br />here</span></button><div class="placeholder food-6"><span>Image</span></div><div class="placeholder food-7"><span>Image</span></div><div class="placeholder food-8"><span>Image</span></div>
-          </div>
-        </article>
-
-        <article class="work-piece memes-piece">
-          <p class="kicker">My Work</p><h2>Memes for Branding</h2>
-          <p class="serif intro">Last month, I had a Coffee Chat with Sydni, who runs Bloom Nutrition’s “Bloom Unfiltered” account.</p>
-          <p class="serif intro">I learned how a dedicated meme page can help brands be funnier and more culturally relevant than their main account allows. The idea here is applying this model to Starbucks, starting with meme concepts around the Unicorn Frappuccino, tapping into nostalgia, seasonality, and current joke trends.</p>
-          <div class="meme-grid"><div class="placeholder meme-1"><span>Meme image</span></div><div class="placeholder meme-2"><span>Meme image</span></div><div class="placeholder meme-3"><span>Meme image</span></div></div>
-        </article>
-
-        <article class="work-piece tik-piece">
-          <p class="kicker">My Work</p><h2>Tik</h2>
-          <div class="phone-grid"><div class="phone"><button class="video-card" type="button" data-video-upload><span>Put<br />video<br />here</span></button></div><div class="phone"><button class="video-card" type="button" data-video-upload><span>Put<br />video<br />here</span></button></div></div>
-        </article>
-
-        <article class="work-piece campaign-piece">
-          <p class="kicker">My Work</p><h2>Midnight Snacking Campaign</h2>
-          <p class="campaign-copy serif">There’s a whole romanticized world around midnight snacking. The high of eating something ridiculous alone in the kitchen, the creative freedom of a 2am concoction, the shared humor of catching a roommate or dad doing the same thing. It’s a specific, relatable feeling brands haven’t fully tapped into.</p>
-          <div class="campaign-grid"><div class="placeholder campaign-1"><span>Image</span></div><div class="placeholder campaign-2"><span>Image</span></div><div class="placeholder campaign-3"><span>Image</span></div><div class="placeholder campaign-4"><span>Image</span></div></div>
-          <div class="campaign-notes serif"><p>“PINK isn’t the snack. PINK is the uniform for the ritual.”</p><p>“I’m not the iconic contrast (glowy skin, unhinged snack).”</p><p>“Liquid Death romanticizes water in an unhinged way. Midnight snacking fits perfectly.”</p></div>
-        </article>
-
-        <article class="work-piece favorites-piece">
-          <p class="kicker">On My Work</p><h2>Current Favs</h2>
-          <div class="favorites-grid"><p class="serif">1. Bedazzle Trend.<br />Once Kylie does it, I want to too.</p><div class="placeholder favorites-left"><span>Image</span></div><div class="placeholder favorites-center"><span>Image</span></div><div class="placeholder favorites-right"><span>Image</span></div><p class="serif favorite-note">2. Bloom Unfiltered.<br />I’m now convinced all DTC brands should all start unfiltered accounts.</p></div>
-        </article>
+        <div class="concept-grid" data-concepts aria-label="Featured concepts"></div>
       </section>
 
-      <footer id="contact">
-        <div><h2>Let’s Work Together</h2><div class="socials"><a href="https://www.linkedin.com/in/nicolecornehllima/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a><a href="https://www.instagram.com/nicolecornehllima/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">◎</a></div></div>
-        <a class="email" href="mailto:nc10lima10@gmail.com">nc10lima10@gmail.com</a>
-      </footer>
+      <section class="contact" id="contact">
+        <p data-contact-title>Let's Work Together</p>
+        <a data-contact-email href="mailto:hello@frwdconcepts.com">hello@frwdconcepts.com</a>
+      </section>
     </main>
+
+    <script src="data/content.js"></script>
     <script src="scripts/home.js"></script>
   </body>
 </html>
