@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;600&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;600&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&family=Oooh+Baby&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -110,20 +110,29 @@
 
       <section class="favs-case" aria-labelledby="favs-title">
         <p class="section-label">(Not) My Work</p>
-        <h2 id="favs-title">Current Favs</h2>
+        <div class="favs-heading"><h2 id="favs-title">Current Favs</h2><span aria-hidden="true">WOW!</span></div>
         <div class="favs-layout">
-          <div class="favs-copy favs-copy--one">
-            <p>1. Bedazzle Trend.</p>
-            <p>Once Kylie does it, I want to too.</p>
-          </div>
-          <figure class="favs-image favs-image--one"><img src="assets/favs1.jpg" alt="A cake decorated with colorful gems" /></figure>
-          <figure class="favs-image favs-image--two"><img src="assets/favs2.jpg" alt="A drink decorated with colorful gems" /></figure>
-          <figure class="favs-image favs-image--three"><img src="assets/favs3.png" alt="Bloom drink summer favorites graphic" /></figure>
-          <figure class="favs-image favs-image--four"><img src="assets/favs4.png" alt="Bloom Unfiltered social media account preview" /></figure>
-          <div class="favs-copy favs-copy--two">
-            <p>2. Bloom Unfiltered.</p>
-            <p>I’m now convinced all DTC brands<br />should all start unfiltered accounts.</p>
-          </div>
+          <article class="favs-card favs-card--one">
+            <figure class="favs-image"><img src="assets/favs2.jpg" alt="A drink decorated with colorful gems" /></figure>
+            <div class="favs-copy">
+              <p>1. Bedazzle Trend.</p>
+              <p>Once Kylie does it, I want to too.</p>
+            </div>
+          </article>
+          <article class="favs-card favs-card--two">
+            <figure class="favs-image"><img src="assets/favs2.png" alt="Bloom drink summer favorites graphic" /></figure>
+            <div class="favs-copy">
+              <p>2. Bloom Unfiltered Content.</p>
+              <p>I’m now convinced all DTC brands should all start unfiltered social accounts.</p>
+            </div>
+          </article>
+          <article class="favs-card favs-card--three">
+            <figure class="favs-image"><img src="assets/favs3.jpg" alt="Jergens Confetti Cake body lotion promotion" /></figure>
+            <div class="favs-copy">
+              <p>3. Jergens on TikTok Shop.</p>
+              <p>Heavy Confetti Body Lotion promotion gives Jergens an edge over Dove and Eucerin, which aren’t on TikTok Shop.</p>
+            </div>
+          </article>
         </div>
       </section>
 
