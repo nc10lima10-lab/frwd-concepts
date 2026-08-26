@@ -29,6 +29,8 @@
   --type-favs-title: clamp(4rem, 8vw, 7.3rem);
   --type-favs-accent: clamp(.9rem, 1.9vw, 1.65rem);
   --type-favs-copy: clamp(1.05rem, 1.8vw, 1.65rem);
+  --type-favs-bloom-copy: clamp(.84rem, 1.44vw, 1.32rem);
+  --type-favs-jergens-copy: clamp(.525rem, .9vw, .825rem);
   --type-label: .82rem;
   --type-body: clamp(1.3rem, 2vw, 1.75rem);
   --type-contact-email: clamp(1.5rem, 2.8vw, 2.4rem);
@@ -632,6 +634,14 @@ a {
   margin-top: 12px;
 }
 
+.favs-card--two .favs-copy {
+  font-size: var(--type-favs-bloom-copy);
+}
+
+.favs-card--three .favs-copy {
+  font-size: var(--type-favs-jergens-copy);
+}
+
 .favs-card--one .favs-copy {
   grid-column: 1;
   grid-row: 2;
@@ -1004,6 +1014,8 @@ a {
     --type-card-copy: .86rem;
     --type-favs-title: clamp(3rem, 13vw, 4.2rem);
     --type-favs-copy: clamp(1rem, 4.2vw, 1.35rem);
+    --type-favs-bloom-copy: clamp(.8rem, 3.36vw, 1.08rem);
+    --type-favs-jergens-copy: clamp(.5rem, 2.1vw, .675rem);
     --type-about-title: clamp(3.2rem, 16vw, 5.2rem);
     --type-ai-title: clamp(2.8rem, 12vw, 4rem);
     --type-ai-copy: 1rem;
