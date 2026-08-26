@@ -587,7 +587,7 @@ a {
 
 .midnight-quotes p:nth-child(2),
 .midnight-quotes p:nth-child(4) {
-  text-align: center;
+  text-align: right;
 }
 
 .favs-case {
