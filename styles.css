@@ -276,6 +276,7 @@ a {
   grid-row: 1 / span 2;
   padding-top: 3px;
   white-space: pre-line;
+  font-size: 0.95em;
 }
 
 .about-gallery {
