@@ -1,7 +1,9 @@
 const content = window.FRWD_CONTENT;
 const site = content.site;
 document.title = site.title;
-["about", "work", "contact"].forEach(function (key) { document.querySelector("[data-nav-" + key + "]").textContent = site.nav[key]; });
+document.querySelector("[data-nav-about]").textContent = site.nav.about;
+document.querySelector("[data-nav-work]").textContent = site.nav.work;
+document.querySelector("[data-nav-contact]").textContent = site.nav.contact;
 const hero = document.querySelector("[data-hero-image"]);
 hero.src = site.heroImage; hero.alt = site.heroImageAlt;
 document.querySelector("[data-about-label]").textContent = site.about.label;
