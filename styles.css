@@ -269,6 +269,7 @@ a {
   max-width: 7ch;
   font-size: clamp(5.8rem, 10.5vw, 9.2rem);
   line-height: 0.83;
+  white-space: pre-line;
 }
 
 .about-body {
@@ -379,11 +380,42 @@ a {
   border-top: 1px solid rgba(255, 242, 182, 0.17);
 }
 
-.contact a {
+.contact-email {
   padding-bottom: 8px;
   border-bottom: 1px solid currentColor;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+}
+
+.contact-details {
+  display: grid;
+  justify-items: end;
+  gap: 12px;
+}
+
+.contact-socials {
+  display: flex;
+  gap: 11px;
+}
+
+.contact-socials a {
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  color: var(--cream);
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.contact-socials a:hover,
+.contact-socials a:focus-visible {
+  color: #fff9dc;
+  transform: translateY(-2px);
+}
+
+.contact-socials svg {
+  width: 26px;
+  height: 26px;
 }
 
 .project-page {
@@ -562,6 +594,10 @@ a {
   .contact {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .contact-details {
+    justify-items: start;
   }
 
   .about-contact,
