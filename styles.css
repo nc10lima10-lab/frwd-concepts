@@ -947,7 +947,7 @@ a {
     opacity: 0.88;
   }
   44% {
-    filter: drop-shadow(0 0 5px rgba(255, 242, 182, 0.34)) drop-shadow(0 0 18px rgba(255, 218, 118, 0.16));
+    filter: drop-shadow(0 0 7px rgba(255, 242, 182, 0.48)) drop-shadow(0 0 24px rgba(255, 218, 118, 0.24));
     opacity: 1;
   }
   48% {
@@ -955,7 +955,7 @@ a {
     opacity: 0.82;
   }
   52% {
-    filter: drop-shadow(0 0 6px rgba(255, 242, 182, 0.42)) drop-shadow(0 0 20px rgba(255, 218, 118, 0.18));
+    filter: drop-shadow(0 0 8px rgba(255, 242, 182, 0.56)) drop-shadow(0 0 27px rgba(255, 218, 118, 0.27));
     opacity: 1;
   }
 }
