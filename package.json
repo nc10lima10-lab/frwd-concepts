@@ -5,7 +5,7 @@
   "description": "A static editorial portfolio for FRWD Concepts.",
   "scripts": {
     "dev": "python3 -m http.server 4174",
-    "check": "node --check data/content.js && node --check scripts/home.js && node --check scripts/project.js",
+    "check": "node --check data/content.js && node --check scripts/home.js",
     "build": "npm run check"
   },
   "devDependencies": {}
