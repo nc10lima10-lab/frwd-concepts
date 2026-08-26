@@ -16,7 +16,7 @@ window.FRWD_CONTENT = {
       label: "About Me",
       title: "Strategy with taste. Ideas with a reason.",
       body:
-        "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. Every project starts with a strategic hypothesis and turns it into something creative, digital, and tangible. With a Computer Science background, Nicole loves finding the intersection of creativity, culture, technology, and strategy.",
+        "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. With a Computer Science background, Nicole loves finding the intersection of creativity, culture, technology, and strategy.",
     },
     contact: {
       title: "Let's Work Together",
@@ -47,54 +47,6 @@ window.FRWD_CONTENT = {
         "A complete product, brand, and social campaign concept that combines product development, creative direction, and content strategy to build a Gen Z-focused identity across Instagram."   
         }
       },
-      {
-      slug: "insta-story-campaign",
-      title: "Insta Story Campaign",
-      description: "Dum Dums brand concept inspired by Mona Lisa's iconic gaze",
-      image: "assets/insta-story-cover.jpg",
-      media: {
-        type: "image",
-        src: "assets/dumdums-campaign.jpg",
-        title: "All Eyes on Blue Campaign Concept"
-      },
-      categories: ["Brand Strategy", "Creative Direction"],
-      tags: ["Dum Dums", "Campaign Design", "Consumer Psychology", "Social Media"],
-      caseStudy: {
-        insight:
-          "The Mona Lisa's timeless appeal comes from her mysterious expression and the feeling that her eyes follow every viewer. Dum Dums is a nostalgic candy brand with a recognizable visual identity, but lacked a modern cultural moment.",
-        opportunity:
-          "Use the Mona Lisa's famous gaze as a creative platform, transforming a simple lollipop into the one thing impossible to ignore.",
-        hook:
-          "All eyes on blue.",
-        results:
-          "A social campaign concept that reimagines Dum Dums through an editorial lens, using selective color, cultural references, and visual storytelling to create a memorable brand moment."
-      }
-    },
-    {
-      slug: "product-design-app",
-      title: "Product Design App",
-      description: "Journaling app designed with Figma",
-      image: "assets/figma-cover.jpg",
-      media: {
-        type: "embed",
-        src: "https://embed.figma.com/design/l5AReVkqG8Y0Jlj2m0qepE/Log--Product-Design-Sample?node-id=0-1&embed-host=share",
-        title: "Reflect Figma Prototype"
-      },
-      workSampleLink: "https://drive.google.com/file/d/17YYcZrA6y3f5zzoEPLirzKn3kudlikPf/view?usp=sharing",
-      workSampleLabel: "🔗 View Full Product Design Process Poster",
-      categories: ["UX Design", "Product Design"],
-      tags: ["Figma", "Behavior Design", "Wellness"],
-      caseStudy: {
-        insight:
-          "User interviews showed that people value journaling. But, a blank page creates friction, especially for people who want to reflect but don't know where to begin.",
-        opportunity:
-          "Create a journaling experience that offers structure without feeling restrictive, giving users multiple ways to reflect based on their needs.",
-        hook:
-          "Reflection should adapt to the user, and not the other way around.",
-        results:
-          "Designed an interactive Figma prototype for a more approachable journaling experience. The product evolved through user interviews, think-aloud usability testing, and multiple rounds of iteration. Testing helped refine the navigation, journaling formats, and interaction patterns based on how users naturally approached reflection. The final prototype explores how thoughtful UX and behavior design can make journaling feel easier to start and more sustainable as a habit."
-      },
-    },
     {
       slug: "viral-tiktok",
       title: "Viral TikTok",
@@ -138,28 +90,30 @@ window.FRWD_CONTENT = {
           "Used humor + a relatable family dynamic to make an AI-powered service feel human, useful, and approachable.",
       },
     },
-
     {
-      slug: "insta-post",
-      title: "Insta Post",
-      description: "High Protein Skincare",
-      image: "assets/serum-insta.jpg",
+      slug: "product-design-app",
+      title: "Product Design App",
+      description: "Journaling app designed with Figma",
+      image: "assets/figma-cover.jpg",
       media: {
-        type: "image",
-        src: "assets/4am-insta.png",
-        title: "4 AM High Protein Skincare Insta Post"
+        type: "embed",
+        src: "https://embed.figma.com/design/l5AReVkqG8Y0Jlj2m0qepE/Log--Product-Design-Sample?node-id=0-1&embed-host=share",
+        title: "Reflect Figma Prototype"
       },
-      categories: ["Social Media", "Trend Strategy"],
-      tags: ["Instagram", "Beauty", "Culture", "Trend Marketing"],
+      workSampleLink: "https://drive.google.com/file/d/17YYcZrA6y3f5zzoEPLirzKn3kudlikPf/view?usp=sharing",
+      workSampleLabel: "🔗 View Full Product Design Process Poster",
+      categories: ["UX Design", "Product Design"],
+      tags: ["Figma", "Behavior Design", "Wellness"],
       caseStudy: {
         insight:
-          "Protein has become a cultural obsession, showing up everywhere from snacks and drinks to desserts and everyday routines. The trend has expanded beyond nutrition into a broader lifestyle identity.",
+          "User interviews showed that people value journaling. But, a blank page creates friction, especially for people who want to reflect but don't know where to begin.",
         opportunity:
-          "Bring the protein craze into skincare by playfully reframing 4AM’s High Protein Serum as the next thing you need to add protein to: your face. A familiar cultural trend creates an unexpected, memorable product connection.",
-        hook: "You’re putting protein in everything. Might as well put it on your face.",
+          "Create a journaling experience that offers structure without feeling restrictive, giving users multiple ways to reflect based on their needs.",
+        hook:
+          "Reflection should adapt to the user, and not the other way around.",
         results:
-          "Designed as a trend-led Instagram concept that uses a familiar cultural obsession to make a skincare benefit feel unexpected, relevant, and shareable.",
+          "Designed an interactive Figma prototype for a more approachable journaling experience. The product evolved through user interviews, think-aloud usability testing, and multiple rounds of iteration. Testing helped refine the navigation, journaling formats, and interaction patterns based on how users naturally approached reflection. The final prototype explores how thoughtful UX and behavior design can make journaling feel easier to start and more sustainable as a habit."
       },
-    },
+    }
   ],
 };
