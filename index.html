@@ -6,72 +6,35 @@
     <title>FRWD Concepts</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="site-shell">
       <section class="hero" id="home" aria-label="FRWD Concepts portfolio hero">
         <nav class="nav" aria-label="Primary navigation">
-          <a href="#about" data-nav-about>About</a>
-          <a href="#work" data-nav-work>Work</a>
-          <a href="#contact" data-nav-contact>Contact</a>
+          <a href="#about" data-nav-about>About</a><a href="#work" data-nav-work>Work</a><a href="#contact" data-nav-contact>Contact</a>
         </nav>
-
-        <div class="hero-type" aria-hidden="true">
-          <span>FRWD</span>
-          <span>CONCEPTS</span>
-        </div>
-
-        <img
-          class="hero-cutout"
-          data-hero-image
-          src=""
-          alt=""
-        />
+        <div class="hero-type" aria-hidden="true"><span>FRWD</span><span>CONCEPTS</span></div>
+        <img class="hero-cutout" data-hero-image src="" alt="" />
       </section>
-
-      <section class="about-contact" id="about">
-        <div class="about-intro">
-          <p class="section-label" data-about-label>About Me</p>
-          <h2 data-about-title>Strategy with taste. Ideas with a spine.</h2>
-          <p class="about-body" data-about-body></p>
-        </div>
+      <section class="about" id="about">
+        <div class="about-copy"><p class="eyebrow" data-about-label>About Me</p><h1 data-about-title>Tech x<br />Culture x<br />Strategy</h1></div>
+        <p class="about-body" data-about-body></p>
         <div class="about-gallery" aria-label="Nicole's life and work">
-          <figure class="about-photo about-photo--portrait">
-            <img src="assets/about-graduation.jpg" alt="Nicole wearing her University of Michigan graduation stole" />
-          </figure>
-          <figure class="about-photo">
-            <img src="assets/about-speaker.jpg" alt="Nicole speaking at a Global Mentorship Program event" />
-          </figure>
-          <figure class="about-photo">
-            <img src="assets/about-camel.jpg" alt="Nicole riding a camel at sunset" />
-          </figure>
-          <figure class="about-photo">
-            <img src="assets/about-friends.jpg" alt="Nicole with friends at a University of Michigan event" />
-          </figure>
+          <img src="assets/about-graduation.jpg" alt="Nicole wearing her University of Michigan graduation stole" /><img src="assets/about-speaker.jpg" alt="Nicole speaking at an event" /><img src="assets/about-camel.jpg" alt="Nicole riding a camel at sunset" /><img src="assets/about-friends.jpg" alt="Nicole with friends" />
         </div>
       </section>
-
-      <section class="work-band" id="work">
-        <div class="section-heading">
-          <h1 data-work-title>The Work</h1>
-          <p data-work-eyebrow></p>
-        </div>
-
-        <div class="concept-grid" data-concepts aria-label="Featured concepts"></div>
+      <section class="work" id="work" aria-label="Selected work">
+        <div class="project project--prototype"><p class="eyebrow">My Work</p><h2>AI-Assisted Visual Prototyping</h2><div class="project-intro"><p>Source a Pinterest image with a girly, ballet-pink mood that felt on-brand for PINK.</p><p>Used AI + Canva to prototype how the mood could translate into branded content, swapping in a product to test how product could live inside that aesthetic.</p></div><div class="prototype-grid" aria-label="Visual prototype examples"><figure class="prototype prototype--a"><span>01</span></figure><figure class="prototype prototype--b"><span>02</span></figure><figure class="prototype prototype--c"><span>03</span></figure><figure class="prototype prototype--d"><span>04</span></figure></div><p class="project-note">Why this works: Reinforces PINK's playful, feminine identity while showing product in a lifestyle-driven, trend-relevant context.</p></div>
+        <div class="project project--media"><p class="eyebrow">My Work</p><h2>Food Photography</h2><div class="media-grid"><img src="assets/about-speaker.jpg" alt="Food photography work sample" /><img src="assets/about-camel.jpg" alt="Food photography work sample" /><img src="assets/about-graduation.jpg" alt="Food photography work sample" /><button class="video-slot video-upload" type="button" data-video-upload aria-label="Add a food photography video"><span>Put<br />video<br />here</span></button><video class="video-slot video-slot--active" controls preload="metadata" aria-label="Food photography video"><source src="assets/vid1.MP4" type="video/mp4" />Your browser does not support video.</video></div></div>
+        <div class="project project--memes"><p class="eyebrow">My Work</p><h2>Memes for Branding</h2><p class="project-description">Last month, I had a Coffee Chat with Sydni, who runs Bloom Nutrition's “Bloom Unfiltered” account. I learned how a dedicated meme page can help brands be funnier and more culturally relevant than their main account allows.</p><div class="meme-grid"><div>Me in 2017</div><div>I just had the unicorn frappe</div><div>Because coffee is for horses</div></div></div>
+        <div class="project project--tiktok"><p class="eyebrow">My Work</p><h2>Tik</h2><div class="phone-row"><div class="phone"><button class="video-slot video-upload" type="button" data-video-upload aria-label="Add a TikTok video"><span>Put<br />video<br />here</span></button></div><div class="phone"><button class="video-slot video-upload" type="button" data-video-upload aria-label="Add a TikTok video"><span>Put<br />video<br />here</span></button></div></div></div>
+        <div class="project project--campaign"><p class="eyebrow">My Work</p><h2>Midnight Snacking Campaign</h2><p class="project-description">There's a whole romanticized world around midnight snacking. The high of eating something ridiculous alone in the kitchen, the creative freedom of a 2am concoction, and the shared humor of catching a roommate or dad doing the same thing.</p><div class="campaign-gallery"><img src="assets/about-friends.jpg" alt="Campaign moodboard" /><img src="assets/about-speaker.jpg" alt="Campaign moodboard" /><img src="assets/about-camel.jpg" alt="Campaign moodboard" /></div></div>
+        <div class="project project--favorites"><p class="eyebrow">On My Work</p><h2>Current Favs</h2><div class="favorites-row"><p>1. Bedazzle Trend.<br />Once Kylie does it, I want to too.</p><div class="favorite-dots" aria-hidden="true"></div><div class="favorite-card">Bloom Unfiltered<br /><span>Funny content first. Product second.</span></div></div></div>
       </section>
-
-      <section class="contact" id="contact">
-        <p data-contact-title>Let's Work Together</p>
-        <a data-contact-email href="mailto:hello@frwdconcepts.com">hello@frwdconcepts.com</a>
-      </section>
+      <footer class="contact" id="contact"><div><p data-contact-title>Let's Work Together</p><div class="social-links" data-socials aria-label="Social links"></div></div><a data-contact-email href="mailto:hello@frwdconcepts.com">hello@frwdconcepts.com</a></footer>
     </main>
-
-    <script src="data/content.js"></script>
-    <script src="scripts/home.js"></script>
+    <script src="data/content.js"></script><script src="scripts/home.js"></script>
   </body>
 </html>
