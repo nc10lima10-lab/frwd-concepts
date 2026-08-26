@@ -1,27 +1,21 @@
 window.FRWD_CONTENT = {
   site: {
-    title: "FRWD Concepts",
-    heroImage: "assets/hero-cutout.png",
-    heroImageAlt: "FRWD Concepts founder portrait",
-    nav: {
-      about: "About",
-      work: "Work",
-      contact: "Contact",
-    },
-    work: {
-      title: "The Work",
-      eyebrow: "concepts · click to explore",
-    },
+    title: "FRWD Concepts", heroImage: "assets/hero-cutout.png", heroImageAlt: "FRWD Concepts founder portrait",
+    nav: { about: "About", work: "Work", contact: "Contact" },
     about: {
-      label: "About Me",
-      title: "Tech x Culture x Strategy",
-      body:
-        "\n FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. I just graduated from the University of Michigan. Wohoooo! My major Computer Science in the College of Engineering. I'm also a serial explorer. Currently at 48 countries so far! And lastly, I’m online a lot... I just have such a love for things that feel Gen Z and relevant. ",
+      label: "About Me", title: "Tech x Culture x Strategy",
+      body: "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. I just graduated from the University of Michigan. Wohoooo! My major was Computer Science in the College of Engineering.\n\nI'm also a serial explorer. Currently at 48 countries so far! And lastly, I’m online a lot... I just have such a love for things that feel Gen Z and relevant.",
+      gallery: [{ src: "assets/about-graduation.jpg", alt: "Nicole at graduation", position: "center 32%" }, { src: "assets/about-speaker.jpg", alt: "Nicole speaking at an event" }, { src: "assets/about-camel.jpg", alt: "Nicole riding a camel" }, { src: "assets/about-friends.jpg", alt: "Nicole with friends" }],
     },
-    contact: {
-      title: "Let's Work Together",
-      email: "nc10lima10@gmail.com",
-    },
+    contact: { title: "Let's Work Together", email: "nc10lima10@gmail.com" },
+    social: [{ platform: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/in/nicolecornehllima/" }, { platform: "instagram", label: "Instagram", url: "https://www.instagram.com/nicolecornehllima/" }],
   },
-  projects: [],
+  workSections: [
+    { kicker: "My Work", title: "AI-Assisted Visual Prototyping", intro: ["Sourced a Pinterest image with a girly, ballet-pink mood that felt on-brand for PINK's audience.", "Used AI + Canva to prototype how the mood could translate into branded content, swapping in product to test how product could live inside that aesthetic."], media: [{ type: "image", alt: "Pinterest mood board reference" }, { type: "image", alt: "AI-generated concept 1" }, { type: "image", alt: "AI-generated concept 2" }, { type: "image", alt: "AI-generated concept 3" }], outro: "Why this works: Reinforces PINK's playful, feminine identity while showing product in a lifestyle-driven, trend-relevant context." },
+    { kicker: "My Work", title: "Food Photography", media: [{ type: "image", alt: "Food photography 1" }, { type: "image", alt: "Food photography 2" }, { type: "image", alt: "Food photography 3" }, { type: "video", label: "Put Video Here" }, { type: "image", alt: "Food photography 4" }, { type: "image", alt: "Food photography 5" }, { type: "video", label: "Put Video Here" }, { type: "image", alt: "Food photography 6" }, { type: "image", alt: "Food photography 7" }, { type: "image", alt: "Food photography 8" }] },
+    { kicker: "My Work", title: "Memes for Branding", intro: ["Last month, I had a coffee chat with Sydni, who runs Bloom Nutrition's “Bloom Unfiltered” account.", "I learned how a dedicated meme/unfiltered handle lets brands be funnier and more culturally resonant than their main account allows. The idea here is applying this model to Starbucks, starting with meme concepts around the Unicorn Frappuccino, tapping into nostalgia, seasonality, and current joke trends."], media: [{ type: "image", alt: "Meme concept 1" }, { type: "image", alt: "Meme concept 2" }, { type: "image", alt: "Meme concept 3" }] },
+    { kicker: "My Work", title: "Tik", media: [{ type: "video", label: "Put Video Here", frame: "phone" }, { type: "video", label: "Put Video Here", frame: "phone" }] },
+    { kicker: "My Work", title: "Midnight Snacking Campaign", intro: ["There's a whole romanticized world around midnight snacking. The high of eating something ridiculous alone in the kitchen, the creative freedom of a 2am concoction, the shared humor of catching a roommate or dad doing the same thing. It’s a specific, relatable feeling brands haven’t fully tapped into."], media: [{ type: "image", alt: "Midnight snacking mood 1" }, { type: "image", alt: "Midnight snacking mood 2" }, { type: "image", alt: "Midnight snacking mood 3" }], quotes: ["“PINK isn’t the snack. PINK is the uniform for the ritual.”", "“Rhode with the ironic contrast (glowy skin, unhinged snack).”", "“Let Oreo be the first thing on the midnight menu.”", "“Liquid Death romanticizes water in an unhinged way. Midnight snacking fits perfectly.”"] },
+  ],
+  favs: { kicker: "(Not) My Work", title: "Current Favs", items: [{ title: "Bedazzle Trend.", body: "Once Kylie does it, I want to too.", image: "" }, { title: "Bloom Unfiltered.", body: "I’m now convinced all DTC brands should all start unfiltered accounts.", image: "" }] },
 };

@@ -10,6 +10,229 @@
   --thumb-bg: #2a0d02;
 }
 
+/* Claude version: data-driven portfolio case studies */
+.case-studies {
+  display: grid;
+  gap: 86px;
+  margin-top: 12px;
+}
+
+.case-study {
+  display: grid;
+  gap: 18px;
+}
+
+.case-title {
+  margin: 0;
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: clamp(2.4rem, 4.4vw, 3.6rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.case-intro {
+  display: grid;
+  gap: 10px;
+  max-width: 62ch;
+}
+
+.case-intro p,
+.case-outro {
+  margin: 0;
+  color: #f7e9b2;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+  line-height: 1.28;
+}
+
+.case-outro {
+  max-width: 62ch;
+  color: var(--cream-muted);
+  font-style: italic;
+}
+
+.case-quotes {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.case-quotes p {
+  margin: 0;
+  color: var(--cream-muted);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  font-style: italic;
+  text-align: center;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+}
+
+.media-cell {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border: 1px solid rgba(255, 242, 182, 0.16);
+  background: var(--thumb-bg);
+}
+
+.media-cell--image img,
+.media-cell--video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.88) contrast(0.98) sepia(0.06);
+}
+
+.media-cell--image-empty,
+.media-cell--video-empty {
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  border: 1.5px dashed rgba(255, 242, 182, 0.4);
+  background: rgba(255, 242, 182, 0.04);
+  text-align: center;
+}
+
+.media-cell--image-empty span {
+  color: var(--cream-muted);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.media-cell--video-empty span {
+  color: var(--cream);
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.media-cell--phone {
+  aspect-ratio: 9 / 17;
+  border: 6px solid #0e0400;
+  border-radius: 32px;
+  box-shadow: 0 0 0 1.5px rgba(255, 242, 182, 0.28);
+}
+
+.media-grid--ai-assisted-visual-prototyping {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.media-grid--food-photography {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.media-grid--food-photography .media-cell {
+  border: 2px solid #5f4937;
+  border-radius: 11px;
+}
+
+.media-grid--memes-for-branding {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.media-grid--tik {
+  grid-template-columns: repeat(2, 150px);
+  justify-content: end;
+  gap: 34px;
+}
+
+.media-grid--midnight-snacking-campaign {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.favs-section {
+  margin-top: 96px;
+  padding-top: 52px;
+  border-top: 1px solid rgba(255, 242, 182, 0.17);
+}
+
+.favs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  margin-top: 26px;
+}
+
+.favs-item {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+}
+
+.favs-item img,
+.favs-item .media-cell {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.favs-copy strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+  text-transform: uppercase;
+}
+
+.favs-copy p {
+  margin: 0;
+  color: #f7e9b2;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  line-height: 1.15;
+}
+
+.contact-links {
+  display: grid;
+  gap: 16px;
+  justify-items: end;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(255, 242, 182, 0.4);
+  border-radius: 50%;
+  color: var(--cream);
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 560px) {
+  .case-studies { gap: 54px; }
+  .media-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .media-grid--ai-assisted-visual-prototyping { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .media-grid--food-photography { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; }
+  .media-grid--food-photography .media-cell { border-radius: 7px; }
+  .media-grid--memes-for-branding { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .media-grid--tik { grid-template-columns: repeat(2, 104px); gap: 22px; }
+  .media-cell--phone { border-width: 4px; border-radius: 22px; }
+  .media-grid--midnight-snacking-campaign { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .favs-grid { grid-template-columns: 1fr; gap: 24px; }
+  .favs-item { grid-template-columns: .9fr 1fr; }
+  .contact-links { justify-items: start; }
+}
+
 * {
   box-sizing: border-box;
 }
