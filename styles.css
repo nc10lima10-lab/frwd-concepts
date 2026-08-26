@@ -255,8 +255,8 @@ a {
 
 .about-intro {
   display: grid;
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-  column-gap: 112px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  column-gap: 78px;
   align-items: start;
 }
 
@@ -266,20 +266,126 @@ a {
 
 .about-contact h2 {
   grid-column: 1;
-  max-width: 7ch;
-  font-size: clamp(5.8rem, 10.5vw, 9.2rem);
+  max-width: none;
+  font-size: clamp(5.2rem, 9vw, 8rem);
   line-height: 0.83;
-  white-space: pre-line;
+  white-space: normal;
+}
+
+.about-contact h2 span {
+  display: block;
+  white-space: nowrap;
 }
 
 .about-body {
   grid-column: 2;
   grid-row: 1 / span 2;
-  padding-top: 20px;
-  max-width: 38rem;
+  padding-top: 12px;
+  max-width: 31rem;
   justify-self: end;
   text-align: right;
   white-space: pre-line;
+}
+
+.ai-case {
+  padding: 66px 64px 74px;
+  border-top: 1px solid rgba(255, 242, 182, 0.17);
+}
+
+.ai-case h2 {
+  margin: 0;
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: clamp(3.6rem, 6.9vw, 6.2rem);
+  font-weight: 400;
+  line-height: 0.86;
+  text-transform: uppercase;
+}
+
+.ai-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.94fr) minmax(185px, 0.72fr) minmax(0, 0.74fr);
+  grid-template-rows: auto auto;
+  gap: 18px 26px;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.ai-copy {
+  align-self: stretch;
+  padding-top: 2px;
+}
+
+.ai-copy p,
+.ai-outro {
+  margin: 0;
+  color: #f7e9b2;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.12rem, 1.75vw, 1.52rem);
+  line-height: 1.18;
+}
+
+.ai-copy p + p {
+  margin-top: 27px;
+}
+
+.ai-top-image {
+  width: 100%;
+  max-width: 248px;
+  margin: 0;
+  justify-self: center;
+  border: 10px solid rgba(255, 245, 233, 0.86);
+  background: #fff5e9;
+}
+
+.ai-top-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.843 / 1;
+  object-fit: cover;
+}
+
+.ai-note {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-height: 150px;
+  color: var(--cream);
+}
+
+.ai-note span {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.5rem, 2.8vw, 2.45rem);
+  font-style: italic;
+  transform: rotate(-7deg);
+}
+
+.ai-note i {
+  font-family: Georgia, serif;
+  font-size: 5.6rem;
+  font-style: normal;
+  line-height: .55;
+  transform: rotate(26deg);
+}
+
+.ai-bottom-images {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 19px;
+  margin: 0 30px;
+}
+
+.ai-bottom-images img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.843 / 1;
+  object-fit: cover;
+}
+
+.ai-outro {
+  margin: 20px auto 0;
+  max-width: 54rem;
+  text-align: center;
 }
 
 .about-gallery {
@@ -570,6 +676,7 @@ a {
   .nav,
   .work-band,
   .about-contact,
+  .ai-case,
   .contact,
   .project-nav,
   .project-hero,
@@ -628,6 +735,21 @@ a {
   .about-gallery {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .ai-case {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .ai-layout {
+    grid-template-columns: minmax(0, .9fr) minmax(155px, .72fr) minmax(0, .7fr);
+    gap: 14px;
+  }
+
+  .ai-bottom-images {
+    gap: 12px;
+    margin: 0 14px;
   }
 
   .concept-grid {
@@ -699,6 +821,7 @@ a {
 
   .work-band,
   .about-contact,
+  .ai-case,
   .contact,
   .meme-case,
   .project-hero,
@@ -724,5 +847,51 @@ a {
 
   .meme-gallery img {
     border-radius: 10px;
+  }
+
+  .about-contact h2 {
+    font-size: clamp(3.2rem, 16vw, 5.2rem);
+  }
+
+  .ai-case h2 {
+    font-size: clamp(2.8rem, 12vw, 4rem);
+  }
+
+  .ai-layout {
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 10px;
+    margin-top: 18px;
+  }
+
+  .ai-copy {
+    grid-column: 1;
+  }
+
+  .ai-top-image {
+    grid-column: 2;
+    border-width: 6px;
+  }
+
+  .ai-note {
+    display: none;
+  }
+
+  .ai-bottom-images {
+    grid-column: 1 / -1;
+    gap: 7px;
+    margin: 0;
+  }
+
+  .ai-copy p,
+  .ai-outro {
+    font-size: 1rem;
+  }
+
+  .ai-copy p + p {
+    margin-top: 14px;
+  }
+
+  .ai-outro {
+    margin-top: 12px;
   }
 }
