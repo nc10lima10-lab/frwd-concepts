@@ -353,10 +353,17 @@ a {
 }
 
 .ai-note span {
-  font-family: "Caveat", "Comic Sans MS", cursive;
   font-size: clamp(2rem, 3.45vw, 3.15rem);
-  font-weight: 600;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
   transform: rotate(-4deg);
+}
+
+.ai-note span em {
+  font-family: "Caveat", "Comic Sans MS", cursive;
+  font-size: 1.12em;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .ai-note i {
@@ -492,6 +499,93 @@ a {
   aspect-ratio: 1 / 1;
   border-radius: 18px;
   object-fit: cover;
+}
+
+.favs-case {
+  padding: 68px 64px 82px;
+  border-top: 1px solid rgba(255, 242, 182, 0.17);
+}
+
+.favs-case h2 {
+  margin: 0;
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: clamp(4rem, 8vw, 7.3rem);
+  font-weight: 400;
+  line-height: 0.84;
+  text-transform: uppercase;
+}
+
+.favs-layout {
+  position: relative;
+  min-height: min(42vw, 510px);
+  margin-top: 26px;
+}
+
+.favs-image {
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
+}
+
+.favs-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.favs-image--one {
+  top: 27%;
+  left: 2%;
+  width: 13.6%;
+  height: 66%;
+}
+
+.favs-image--two {
+  top: 27%;
+  left: 18%;
+  width: 27.8%;
+  height: 66%;
+}
+
+.favs-image--three {
+  top: 15.5%;
+  left: 47.7%;
+  width: 17%;
+  height: 48%;
+}
+
+.favs-image--four {
+  top: 0;
+  right: 0;
+  width: 28.2%;
+  height: 63.5%;
+}
+
+.favs-copy {
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  color: #f7e9b2;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.25rem, 2.35vw, 2.2rem);
+  line-height: 1.1;
+}
+
+.favs-copy p {
+  margin: 0;
+}
+
+.favs-copy--one {
+  top: 0;
+  left: 0;
+}
+
+.favs-copy--two {
+  top: 70%;
+  right: 0;
+  width: 43%;
+  text-align: center;
 }
 
 .about-photo {
@@ -733,6 +827,7 @@ a {
   .about-contact,
   .ai-case,
   .food-case,
+  .favs-case,
   .contact,
   .project-nav,
   .project-hero,
@@ -822,6 +917,11 @@ a {
     padding-right: 26px;
   }
 
+  .favs-case {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
   .concept-overlay {
     padding: 14px;
   }
@@ -884,6 +984,7 @@ a {
   .about-contact,
   .ai-case,
   .food-case,
+  .favs-case,
   .contact,
   .meme-case,
   .project-hero,
@@ -909,6 +1010,52 @@ a {
 
   .meme-gallery img {
     border-radius: 10px;
+  }
+
+  .favs-case h2 {
+    font-size: clamp(3rem, 13vw, 4.2rem);
+  }
+
+  .favs-layout {
+    min-height: 128vw;
+    margin-top: 22px;
+  }
+
+  .favs-image--one {
+    top: 17%;
+    left: 0;
+    width: 27%;
+    height: 35%;
+  }
+
+  .favs-image--two {
+    top: 17%;
+    left: 30%;
+    width: 42%;
+    height: 35%;
+  }
+
+  .favs-image--three {
+    top: 55%;
+    left: 0;
+    width: 40%;
+    height: 25%;
+  }
+
+  .favs-image--four {
+    top: 55%;
+    right: 0;
+    width: 56%;
+    height: 31%;
+  }
+
+  .favs-copy {
+    font-size: clamp(1.1rem, 5vw, 1.55rem);
+  }
+
+  .favs-copy--two {
+    top: 88%;
+    width: 100%;
   }
 
   .about-contact h2 {
