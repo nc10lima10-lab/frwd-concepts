@@ -12,8 +12,9 @@ heroImage.src = site.heroImage;
 heroImage.alt = site.heroImageAlt;
 
 document.querySelector("[data-work-title]").textContent = site.work.title;
-document.querySelector("[data-work-eyebrow]").textContent =
-  `${projects.length} ${site.work.eyebrow}`;
+document.querySelector("[data-work-eyebrow]").textContent = projects.length
+  ? `${projects.length} ${site.work.eyebrow}`
+  : "";
 document.querySelector("[data-about-label]").textContent = site.about.label;
 document.querySelector("[data-about-title]").textContent = site.about.title;
 document.querySelector("[data-about-body]").textContent = site.about.body;

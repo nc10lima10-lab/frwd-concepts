@@ -113,6 +113,7 @@ a {
 }
 
 .work-band {
+  border-top: 1px solid rgba(255, 242, 182, 0.17);
   padding-top: 52px;
   padding-bottom: 86px;
 }
@@ -248,7 +249,6 @@ a {
 }
 
 .about-contact {
-  border-top: 1px solid rgba(255, 242, 182, 0.17);
   padding-top: 70px;
   padding-bottom: 20px;
 }
