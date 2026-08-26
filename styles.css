@@ -303,9 +303,9 @@ a {
 
 .ai-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.94fr) minmax(185px, 0.72fr) minmax(0, 0.74fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-template-rows: auto auto;
-  gap: 18px 26px;
+  gap: 18px 19px;
   align-items: center;
   margin-top: 26px;
 }
@@ -329,10 +329,10 @@ a {
 }
 
 .ai-top-image {
-  width: 100%;
+  width: 90%;
   max-width: none;
-  margin: 0 0 0 calc((100% - 52px) / -24);
-  justify-self: stretch;
+  margin: 0;
+  justify-self: center;
   border: 0;
   background: transparent;
 }
@@ -353,7 +353,7 @@ a {
 }
 
 .ai-note span {
-  font-family: Caveat, "Comic Sans MS", cursive;
+  font-family: "Caveat", "Comic Sans MS", cursive;
   font-size: clamp(2rem, 3.45vw, 3.15rem);
   font-weight: 600;
   transform: rotate(-4deg);
