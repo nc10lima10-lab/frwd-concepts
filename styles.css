@@ -8,6 +8,35 @@
   --line: rgba(255, 242, 182, 0.2);
   --overlay: rgba(255, 226, 105, 0.68);
   --thumb-bg: #2a0d02;
+
+  /* TYPOGRAPHY CONTROLS — change a value here to resize that text site-wide. */
+  --type-nav: clamp(1.45rem, 2.6vw, 2.15rem);
+  --type-hero: clamp(14rem, 26vw, 26rem);
+  --type-section-title: clamp(3.7rem, 6.3vw, 5.2rem);
+  --type-section-subtitle: clamp(1.08rem, 1.7vw, 1.55rem);
+  --type-card-label: .95rem;
+  --type-card-title: clamp(1.9rem, 3.2vw, 2.9rem);
+  --type-card-copy: 1rem;
+  --type-about-title: clamp(5.2rem, 9vw, 8rem);
+  --type-ai-title: clamp(3.6rem, 6.9vw, 6.2rem);
+  --type-ai-copy: clamp(1.12rem, 1.75vw, 1.52rem);
+  --type-ai-note: clamp(1.55rem, 2.7vw, 2.5rem);
+  --type-ai-script: 1.14em;
+  --type-ai-arrow: 5.6rem;
+  --type-food-title: clamp(3.8rem, 7vw, 6.4rem);
+  --type-meme-title: clamp(4rem, 8vw, 7.3rem);
+  --type-meme-copy: clamp(1rem, 1.7vw, 1.5rem);
+  --type-favs-title: clamp(4rem, 8vw, 7.3rem);
+  --type-favs-accent: clamp(.9rem, 1.9vw, 1.65rem);
+  --type-favs-copy: clamp(1.05rem, 1.8vw, 1.65rem);
+  --type-label: .82rem;
+  --type-body: clamp(1.3rem, 2vw, 1.75rem);
+  --type-contact-email: clamp(1.5rem, 2.8vw, 2.4rem);
+  --type-project-nav: .92rem;
+  --type-project-title: clamp(5rem, 13vw, 12rem);
+  --type-project-copy: clamp(1.35rem, 2.4vw, 2.3rem);
+  --type-project-label: .82rem;
+  --type-project-button: .9rem;
 }
 
 * {
@@ -52,7 +81,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   padding: 25px 64px 0;
-  font-size: clamp(1.45rem, 2.6vw, 2.15rem);
+  font-size: var(--type-nav);
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -83,7 +112,7 @@ a {
   flex-direction: column;
   align-items: center;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(14rem, 26vw, 26rem);
+  font-size: var(--type-hero);
   line-height: 0.78;
   color: transparent;
   -webkit-text-stroke: 4px var(--cream);
@@ -130,7 +159,7 @@ a {
 .contact p {
   margin: 0;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(3.7rem, 6.3vw, 5.2rem);
+  font-size: var(--type-section-title);
   line-height: 0.9;
   text-transform: uppercase;
 }
@@ -138,7 +167,7 @@ a {
 .section-heading p {
   margin: 0;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.08rem, 1.7vw, 1.55rem);
+  font-size: var(--type-section-subtitle);
   text-transform: uppercase;
 }
 
@@ -230,13 +259,13 @@ a {
 
 .concept-overlay span {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 0.95rem;
+  font-size: var(--type-card-label);
   font-weight: 600;
 }
 
 .concept-overlay strong {
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(1.9rem, 3.2vw, 2.9rem);
+  font-size: var(--type-card-title);
   line-height: 0.85;
   text-transform: uppercase;
 }
@@ -244,7 +273,7 @@ a {
 .concept-overlay em {
   max-width: 13rem;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1rem;
+  font-size: var(--type-card-copy);
   line-height: 1.06;
 }
 
@@ -267,7 +296,7 @@ a {
 .about-contact h2 {
   grid-column: 1;
   max-width: none;
-  font-size: clamp(5.2rem, 9vw, 8rem);
+  font-size: var(--type-about-title);
   line-height: 0.83;
   white-space: normal;
 }
@@ -295,7 +324,7 @@ a {
 .ai-case h2 {
   margin: 0;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(3.6rem, 6.9vw, 6.2rem);
+  font-size: var(--type-ai-title);
   font-weight: 400;
   line-height: 0.86;
   text-transform: uppercase;
@@ -320,7 +349,7 @@ a {
   margin: 0;
   color: #f7e9b2;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.12rem, 1.75vw, 1.52rem);
+  font-size: var(--type-ai-copy);
   line-height: 1.18;
 }
 
@@ -353,7 +382,7 @@ a {
 }
 
 .ai-note span {
-  font-size: clamp(1.55rem, 2.7vw, 2.5rem);
+  font-size: var(--type-ai-note);
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 500;
   transform: rotate(-4deg);
@@ -361,14 +390,14 @@ a {
 
 .ai-note span em {
   font-family: "Dancing Script", "Snell Roundhand", "Brush Script MT", cursive;
-  font-size: 1.14em;
+  font-size: var(--type-ai-script);
   font-style: normal;
   font-weight: 700;
 }
 
 .ai-note i {
   font-family: Caveat, cursive;
-  font-size: 5.6rem;
+  font-size: var(--type-ai-arrow);
   font-style: normal;
   line-height: .55;
   transform: scaleX(-1) rotate(26deg);
@@ -403,7 +432,7 @@ a {
 .food-case h2 {
   margin: 0;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(3.8rem, 7vw, 6.4rem);
+  font-size: var(--type-food-title);
   font-weight: 400;
   line-height: .86;
   text-transform: uppercase;
@@ -465,7 +494,7 @@ a {
 .meme-case h2 {
   margin: 0;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(4rem, 8vw, 7.3rem);
+  font-size: var(--type-meme-title);
   font-weight: 400;
   line-height: 0.84;
   text-transform: uppercase;
@@ -482,7 +511,7 @@ a {
   margin: 0;
   color: #f7e9b2;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1rem, 1.7vw, 1.5rem);
+  font-size: var(--type-meme-copy);
   line-height: 1.24;
 }
 
@@ -515,7 +544,7 @@ a {
 .favs-case h2 {
   margin: 0;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(4rem, 8vw, 7.3rem);
+  font-size: var(--type-favs-title);
   font-weight: 400;
   line-height: 0.84;
   text-transform: uppercase;
@@ -530,7 +559,7 @@ a {
   background: #ee5d9c;
   clip-path: polygon(50% 0%, 59% 14%, 71% 4%, 75% 20%, 91% 17%, 86% 32%, 100% 40%, 87% 51%, 96% 65%, 79% 66%, 80% 84%, 64% 77%, 53% 100%, 43% 79%, 29% 91%, 25% 74%, 6% 79%, 16% 62%, 0% 53%, 16% 43%, 4% 30%, 23% 29%, 22% 9%, 39% 19%);
   font-family: Inter, sans-serif;
-  font-size: clamp(.9rem, 1.9vw, 1.65rem);
+  font-size: var(--type-favs-accent);
   font-style: italic;
   font-weight: 800;
   letter-spacing: .02em;
@@ -566,18 +595,21 @@ a {
 .favs-card--one .favs-image {
   grid-column: 1;
   grid-row: 1;
+  align-self: end;
   aspect-ratio: .95 / 1;
 }
 
 .favs-card--two .favs-image {
   grid-column: 2;
   grid-row: 1;
+  align-self: end;
   aspect-ratio: .8 / 1;
 }
 
 .favs-card--three .favs-image {
   grid-column: 3;
   grid-row: 1;
+  align-self: end;
   aspect-ratio: .695 / 1;
 }
 
@@ -588,7 +620,7 @@ a {
   margin: 0;
   color: #f7e9b2;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.05rem, 1.8vw, 1.65rem);
+  font-size: var(--type-favs-copy);
   line-height: 1.1;
 }
 
@@ -638,7 +670,7 @@ a {
 .case-kicker {
   margin: 0 0 16px;
   color: var(--cream-muted);
-  font-size: 0.82rem;
+  font-size: var(--type-label);
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -650,7 +682,7 @@ a {
   margin: 0;
   color: #f7e9b2;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.3rem, 2vw, 1.75rem);
+  font-size: var(--type-body);
   line-height: 1.08;
 }
 
@@ -666,7 +698,7 @@ a {
   padding-bottom: 8px;
   border-bottom: 1px solid currentColor;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+  font-size: var(--type-contact-email);
 }
 
 .contact-details {
@@ -710,7 +742,7 @@ a {
   gap: 20px;
   padding: 28px 64px;
   border-bottom: 1px solid var(--line);
-  font-size: 0.92rem;
+  font-size: var(--type-project-nav);
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -726,7 +758,7 @@ a {
 .project-hero h1 {
   margin: 0;
   font-family: "Bebas Neue", Impact, sans-serif;
-  font-size: clamp(5rem, 13vw, 12rem);
+  font-size: var(--type-project-title);
   line-height: 0.78;
   text-transform: uppercase;
 }
@@ -735,7 +767,7 @@ a {
   margin: 0;
   color: var(--cream-muted);
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.35rem, 2.4vw, 2.3rem);
+  font-size: var(--type-project-copy);
   line-height: 1.02;
 }
 
@@ -746,7 +778,7 @@ a {
 
 .project-summary span {
   color: var(--cream);
-  font-size: 0.82rem;
+  font-size: var(--type-project-label);
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -797,7 +829,7 @@ a {
 .project-panel h2,
 .project-results h2 {
   margin: 0 0 18px;
-  font-size: 0.82rem;
+  font-size: var(--type-project-label);
   text-transform: uppercase;
 }
 
@@ -815,7 +847,7 @@ a {
   padding: 16px 22px;
   border: 1px solid var(--cream);
   color: var(--cream);
-  font-size: 0.9rem;
+  font-size: var(--type-project-button);
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
@@ -840,6 +872,10 @@ a {
 }
 
 @media (max-width: 860px) {
+  :root {
+    --type-hero: clamp(7.9rem, 24vw, 11.6rem);
+  }
+
   .site-shell {
     width: min(100% - 24px, 720px);
     margin-top: 18px;
@@ -865,7 +901,7 @@ a {
 
 .hero-type {
     inset: 112px 18px auto;
-    font-size: clamp(7.9rem, 24vw, 11.6rem);
+    font-size: var(--type-hero);
     -webkit-text-stroke-width: 3px;
     text-stroke-width: 3px;
   }
@@ -961,6 +997,19 @@ a {
 }
 
 @media (max-width: 560px) {
+  :root {
+    --type-nav: 1.2rem;
+    --type-hero: clamp(6.1rem, 28vw, 8.8rem);
+    --type-card-title: clamp(1.15rem, 7vw, 2rem);
+    --type-card-copy: .86rem;
+    --type-favs-title: clamp(3rem, 13vw, 4.2rem);
+    --type-favs-copy: clamp(1rem, 4.2vw, 1.35rem);
+    --type-about-title: clamp(3.2rem, 16vw, 5.2rem);
+    --type-ai-title: clamp(2.8rem, 12vw, 4rem);
+    --type-ai-copy: 1rem;
+    --type-food-title: clamp(3rem, 13vw, 4.2rem);
+  }
+
   .site-shell {
     width: 100%;
     margin: 0;
@@ -972,12 +1021,12 @@ a {
 
   .nav {
     padding-top: 20px;
-    font-size: 1.2rem;
+    font-size: var(--type-nav);
   }
 
   .hero-type {
     top: 120px;
-    font-size: clamp(6.1rem, 28vw, 8.8rem);
+    font-size: var(--type-hero);
   }
 
   .hero-cutout {
@@ -1000,11 +1049,11 @@ a {
   }
 
   .concept-overlay strong {
-    font-size: clamp(1.15rem, 7vw, 2rem);
+    font-size: var(--type-card-title);
   }
 
   .concept-overlay em {
-    font-size: 0.86rem;
+    font-size: var(--type-card-copy);
   }
 
   .work-band,
@@ -1040,7 +1089,7 @@ a {
   }
 
   .favs-case h2 {
-    font-size: clamp(3rem, 13vw, 4.2rem);
+    font-size: var(--type-favs-title);
   }
 
   .favs-layout {
@@ -1060,7 +1109,7 @@ a {
   .favs-copy {
     width: 100%;
     height: 10.5rem;
-    font-size: clamp(1rem, 4.2vw, 1.35rem);
+    font-size: var(--type-favs-copy);
   }
 
   .favs-card--two,
@@ -1069,11 +1118,11 @@ a {
   }
 
   .about-contact h2 {
-    font-size: clamp(3.2rem, 16vw, 5.2rem);
+    font-size: var(--type-about-title);
   }
 
   .ai-case h2 {
-    font-size: clamp(2.8rem, 12vw, 4rem);
+    font-size: var(--type-ai-title);
   }
 
   .ai-layout {
@@ -1103,7 +1152,7 @@ a {
 
   .ai-copy p,
   .ai-outro {
-    font-size: 1rem;
+    font-size: var(--type-ai-copy);
   }
 
   .ai-copy p + p {
@@ -1115,7 +1164,7 @@ a {
   }
 
   .food-case h2 {
-    font-size: clamp(3rem, 13vw, 4.2rem);
+    font-size: var(--type-food-title);
   }
 
   .phone-wall {
