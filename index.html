@@ -1,8 +1,77 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>FRWD Concepts</title><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css" /></head>
-<body><main class="site-shell">
-<section class="hero" id="home"><nav class="nav" aria-label="Primary navigation"><a href="#about" data-nav-about>About</a><a href="#work" data-nav-work>Work</a><a href="#contact" data-nav-contact>Contact</a></nav><div class="hero-type" aria-hidden="true"><span>FRWD</span><span>CONCEPTS</span></div><img class="hero-cutout" data-hero-image src="" alt="" /></section>
-<section class="about-contact" id="about"><div class="about-intro"><p class="section-label" data-about-label>About Me</p><h2 data-about-title>Strategy with taste. Ideas with a spine.</h2><p class="about-body" data-about-body></p></div><div class="about-gallery" data-about-gallery aria-label="Nicole's life and work"></div></section>
-<section class="work-band" id="work"><div class="case-studies" data-work-sections aria-label="Work case studies"></div><div class="favs-section" data-favs aria-label="Current favorites"></div></section>
-<section class="contact" id="contact"><p data-contact-title>Let's Work Together</p><div class="contact-links"><a data-contact-email href="mailto:hello@frwdconcepts.com">hello@frwdconcepts.com</a><div class="social-icons" data-social-links aria-label="Social media links"></div></div></section>
-</main><script src="data/content.js"></script><script src="scripts/home.js"></script></body></html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRWD Concepts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="hero" id="home" aria-label="FRWD Concepts portfolio hero">
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#about" data-nav-about>About</a>
+          <a href="#work" data-nav-work>Work</a>
+          <a href="#contact" data-nav-contact>Contact</a>
+        </nav>
+
+        <div class="hero-type" aria-hidden="true">
+          <span>FRWD</span>
+          <span>CONCEPTS</span>
+        </div>
+
+        <img
+          class="hero-cutout"
+          data-hero-image
+          src=""
+          alt=""
+        />
+      </section>
+
+      <section class="about-contact" id="about">
+        <div class="about-intro">
+          <p class="section-label" data-about-label>About Me</p>
+          <h2 data-about-title>Strategy with taste. Ideas with a spine.</h2>
+          <p class="about-body" data-about-body></p>
+        </div>
+        <div class="about-gallery" aria-label="Nicole's life and work">
+          <figure class="about-photo about-photo--portrait">
+            <img src="assets/about-graduation.jpg" alt="Nicole wearing her University of Michigan graduation stole" />
+          </figure>
+          <figure class="about-photo">
+            <img src="assets/about-speaker.jpg" alt="Nicole speaking at a Global Mentorship Program event" />
+          </figure>
+          <figure class="about-photo">
+            <img src="assets/about-camel.jpg" alt="Nicole riding a camel at sunset" />
+          </figure>
+          <figure class="about-photo">
+            <img src="assets/about-friends.jpg" alt="Nicole with friends at a University of Michigan event" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="work-band" id="work">
+        <div class="section-heading">
+          <h1 data-work-title>The Work</h1>
+          <p data-work-eyebrow></p>
+        </div>
+
+        <div class="concept-grid" data-concepts aria-label="Featured concepts"></div>
+      </section>
+
+      <section class="contact" id="contact">
+        <p data-contact-title>Let's Work Together</p>
+        <a data-contact-email href="mailto:hello@frwdconcepts.com">hello@frwdconcepts.com</a>
+      </section>
+    </main>
+
+    <script src="data/content.js"></script>
+    <script src="scripts/home.js"></script>
+  </body>
+</html>

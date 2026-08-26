@@ -1,6 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/projects/:project",
+      "destination": "/projects/project.html?project=:project"
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
