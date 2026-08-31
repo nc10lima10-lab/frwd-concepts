@@ -16,7 +16,7 @@ window.FRWD_CONTENT = {
       label: "About Me",
       title: "Tech x\nCulture x\nStrategy",
       body:
-        "FRWD Concepts is a concept portfolio by Nicole Cornehl Lima. I just graduated from the University of Michigan. Wohoooo! My major was Computer Science in the College of Engineering.\n\nI'm also a serial explorer. Currently at 48 countries so far! And lastly, I’m online a lot... I just have such a love for things that feel Gen Z and relevant.",
+        "FRWD Concepts was started by Nicole CL. I just graduated from the University of Michigan. Wohoooo! My major was Computer Science in the College of Engineering.\n\nI'm also a serial explorer. Currently at 48 countries so far! And lastly, I’m online a lot... I just have such a love for things that feel Gen Z and relevant.",
     },
     contact: {
       title: "Let's Work Together",
